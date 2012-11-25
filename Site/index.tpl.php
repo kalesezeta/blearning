@@ -150,10 +150,24 @@
 
 		</div><!-- #limiter-cnt -->
 
-		<div id="rg-ft" style="height:150px;">
-			<div class="limiter">
-				Hola
+		<div id="rg-ft">
+
+			<div class="limiter cf">
+
+				<div class="grp-col cf">
+					<div class="col first fl">
+						UNO
+					</div><!-- .col.first -->
+					<div class="col fl">
+						DOS
+					</div><!-- .col -->
+					<div class="col last fl">
+						TRES
+					</div><!-- .col -->
+				</div><!-- .grp-col -->
+
 			</div><!-- .limiter -->
+
 		</div><!-- .rg-ft -->
 
 	</div><!-- #main -->

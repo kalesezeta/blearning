@@ -16,12 +16,11 @@ html, body {width:100%; height:100%;}
 body {
 	font-family:'Helvetica', Arial, sans-serif;
 	font-size:15px;
-	color:#a4cd00;
+	color:#333;
 	background:#fff;
 }
 #main {
-	position:absolute;
-	width:100%; height:100%;
+	position:absolute; width:100%;
 }
 #limiter-cnt,
 .limiter {width:950px; margin:0 auto; padding-bottom:1px;}
@@ -80,7 +79,7 @@ a:hover, .lnk:hover {color:#006666; text-decoration:none;}
  	display:block; visibility:visible;
  	position:absolute; top:0; left:0;
  	width:100%; height:100%;
- 	background:url(../images/bg-debug.png) 50% 0 no-repeat;
+ 	background:url(../images/bg-debug.png) 50% 0 repeat-y;
  	z-index:10;
  }
 
@@ -275,12 +274,16 @@ body #navbar {
 
 	#rg-ft {
 		margin-bottom:0;
-		background:#002525 url(../images/bg-ft.png) 50% 0 no-repeat;
+		color:#fff; background:#002525 url(../images/bg-ft.png) 50% 0 no-repeat;
 		box-shadow:0 0 7px #333;
 			-webkit-shadow:0 0 7px #333;
 			-moz-shadow:0 0 7px #333;
 			-o-shadow:0 0 7px #333;
 	}
+	#rg-ft .grp-col {margin:30px 0; background:transparent url(../images/bg-ft-fakecols.png) 50% 0 repeat-y;}
+	#rg-ft .col {width:310px; margin-left:10px;}
+	#rg-ft .col.first {margin-left:0; border-left:0;}
+	#rg-ft .col.last {border-right:none;}
 
 
 
@@ -460,6 +463,18 @@ body #navbar {
 	#limiter-cnt {width:100%; padding-top:47px;}
 	.limiter {width:100%;}	
 
+
+	/** 
+	 * ==============================================
+	 *  @subsection: SITE NAVIGATION MODIFIERS
+	 * ==============================================
+	 **/
+
+	#navbar #wrp-navbar {padding:9px 0 8px 0;}
+	#navbar .lst-navbar .lst-item {display:none; visibility:hidden;}
+	#navbar .cmb-navbar {display:inline-block; visibility:visible;}
+
+
 	/** 
 	 * ==============================================
 	 *  @subsection: HEADER MODIFIERS (#rg-hd)
@@ -517,18 +532,18 @@ body #navbar {
 
 	/** 
 	 * ==============================================
-	 *  @subsection: SITE NAVIGATION MODIFIERS
+	 *  @subsection: FOOTER MODIFIERS (#rg-ft)
 	 * ==============================================
 	 **/
 
-	#navbar #wrp-navbar {padding:9px 0 8px 0;}
-	#navbar .lst-navbar .lst-item {display:none; visibility:hidden;}
-	#navbar .cmb-navbar {display:inline-block; visibility:visible;}
+	#rg-ft .grp-col {background:none;}
+	#rg-ft .grp-col .col {width:100%; margin:0 0 10px;}
+	#rg-ft .grp-col .col.last {margin:0;}
 
 
 	/** 
 	 * ==============================================
-	 *  @subsection: SITE TITLE
+	 *  @subsection: SITE TITLE MODIFIERS
 	 * 
 	 * ==============================================
 	 **/
@@ -539,7 +554,7 @@ body #navbar {
 
 	/** 
 	 * ==============================================
-	 *  @subsection: SITE SECTION
+	 *  @subsection: SITE SECTION MODIFIERS
 	 * 
 	 * ==============================================
 	 **/
