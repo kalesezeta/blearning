@@ -13,9 +13,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<!-- STYLE SHEETS -->
-	<link rel="stylesheet" type="text/css" href="css/fonts.css">
-	<link rel="stylesheet" type="text/css" href="css/styles.css">
-	<link rel="stylesheet" type="text/css" href="css/yui-reset.min.css">
+	<link rel="stylesheet" type="text/css" href="css/fonts.css" />
+	<link rel="stylesheet" type="text/css" href="css/styles.css" />
+	<link rel="stylesheet" type="text/css" href="css/yui-reset.min.css" />
 
 	<!-- SCRIPTS -->
 	<script src="js/jquery-1.8.2.min.js" type="text/javascript"></script><!-- jQuery 1.8.2 -->

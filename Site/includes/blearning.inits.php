@@ -1,6 +1,6 @@
 <script type="text/javascript">  
 
-	jQuery(document).ready(function(){
+	jQuery(document).ready(function() {
 
 		// Content limiter dinamic margin
 		var navbarWidth = jQuery("#navbar").width();
