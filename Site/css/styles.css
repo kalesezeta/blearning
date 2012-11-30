@@ -28,10 +28,10 @@ body {
 a, .lnk {
 	color:#009999; text-decoration:none; cursor:pointer;
 	text-decoration:underline;
-	transition:color 0.15s ease-in-out;
-		-webkit-transition:color 0.15s ease-in-out;
-		-moz-transition:color 0.15s ease-in-out;
-		-o-transition:color 0.15s ease-in-out;
+	transition:color 0.25s ease-in-out;
+		-webkit-transition:color 0.25s ease-in-out;
+		-moz-transition:color 0.25s ease-in-out;
+		-o-transition:color 0.25s ease-in-out;
 }
 a:hover, .lnk:hover {color:#006666; text-decoration:none;}
 
@@ -424,31 +424,73 @@ body #navbar {
 
 	/** 
 	 * ==============================================
-	 *  @subsection: LATEST TWEETS
-	 *  @use: jQuery Tweet (js/jquery.tweet.js)
+	 *  @subsection: FOOTER MODULE
+	 * 
 	 * ==============================================
 	 **/
 
-	.tweet,
-	.query {font: 120% Georgia, serif; color: #085258;}
-	.tweet_list {
-		-webkit-border-radius: 0.5em;
-		-moz-border-radius: 0.5em;
-		border-radius: 0.5em;
-		list-style: none;
-		margin: 0;
-		padding: 0;
-		overflow-y: hidden;
-		background-color: #8ADEE2;
-	}
-		.tweet_list li {
-			padding: 0.5em; list-style-type: none;
-			overflow-y: auto; overflow-x: hidden; 
+	.md-ft_module {margin:0 10px;}
+	.md-ft_module .hd {margin-bottom:15px; font:30px/120% 'MidietSansLight', Helvetica, sans-serif; color:#fff;}
+		.md-ft_module .hd em {font-size:40px; color:#a4cc00;}
+	.md-ft_module .bd {}
+
+		/** 
+		 * ==============================================
+		 *  @subsection: OPINIONES
+		 *  @use: jQuery Custom Scrollbar (js/jquery.mCustomScrollbar.min.js)
+		 * ==============================================
+		 **/
+
+		.md-ft_module.opiniones {}
+		.md-ft_module.opiniones .bd {font-size:12px; line-height:140%; color:#ccc;}
+		.md-ft_module.opiniones .bd .reviews-cnt {height:300px; overflow:auto;}
+		.md-ft_module.opiniones .mCSB_container {margin-right:13px;}
+		.md-ft_module.opiniones .mCustomScrollBox .mCSB_scrollTools {right:-6px;}
+		.md-ft_module.opiniones .reviews-cnt .review-item {margin-bottom:10px;}
+		.md-ft_module.opiniones .reviews-cnt .tx-review {
+			margin-bottom:5px; padding:7px 10px;
+			border-right:1px solid #002a2a; border-bottom:1px solid #002a2a;
+			background-color:#004040;
+			border-radius:3px;
+				-webkit-border-radius:3px;
+				-moz-border-radius:3px;
+				-o-border-radius:3px;
+			text-shadow:1px 1px 0 #002e2e;
+				-webkit-text-shadow:1px 1px 0 #002e2e;
+				-moz-text-shadow:1px 1px 0 #002e2e;
+				-o-text-shadow:1px 1px 0 #002e2e;
 		}
-		.tweet_list li a {color: #0C717A;}
-		.tweet_list .tweet_even {background-color: #91E5E7;}
-		.tweet_list .tweet_avatar {padding-right: .5em; float: left;}
-		.tweet_list .tweet_avatar img {vertical-align: middle;}
+		.md-ft_module.opiniones .reviews-cnt .author {margin-right:5px; text-align:right;}
+		.md-ft_module.opiniones .reviews-cnt .author small {display:block; font-size:10px; color:#999;}
+
+
+		/** 
+		 * ==============================================
+		 *  @subsection: LATEST TWEETS
+		 *  @use: jQuery Tweet (js/jquery.tweet.js)
+		 * ==============================================
+		 **/
+
+		.tweet,
+		.query {font: 120% Georgia, serif; color: #085258;}
+		.tweet_list {
+			-webkit-border-radius: 0.5em;
+			-moz-border-radius: 0.5em;
+			border-radius: 0.5em;
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			overflow-y: hidden;
+			background-color: #8ADEE2;
+		}
+			.tweet_list li {
+				padding: 0.5em; list-style-type: none;
+				overflow-y: auto; overflow-x: hidden; 
+			}
+			.tweet_list li a {color: #0C717A;}
+			.tweet_list .tweet_even {background-color: #91E5E7;}
+			.tweet_list .tweet_avatar {padding-right: .5em; float: left;}
+			.tweet_list .tweet_avatar img {vertical-align: middle;}
 
 
 
