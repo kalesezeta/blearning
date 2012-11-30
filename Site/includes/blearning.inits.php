@@ -13,13 +13,23 @@
 			jQuery('#limiter-cnt').css('margin-top', Number(navbarHeight+32) + 'px');
 		}
 
-		jQuery(window).resize(function(e){
+		jQuery(window).resize(function(e) {
 				navbarHeight = jQuery("#navbar").height();
 				jQuery('#limiter-cnt').css('margin-top', Number(navbarHeight+32) + 'px');
 		});
 
-		/* BL.foo("bar"); */
+	});
+
+	jQuery(window).load(function(){
+
+		jQuery(".reviews-cnt").mCustomScrollbar({
+			scrollButtons:{
+				enable: false
+			}
+		});
 
 	});
+
+	/* BL.foo("bar"); */
 
 </script>
