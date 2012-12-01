@@ -297,6 +297,64 @@ body #navbar {
 
 	/** 
 	 * ==============================================
+	 *  @subsection: BUTTON LINE
+	 * 
+	 * ==============================================
+	 **/
+
+	.cp-btn_line {}
+	.cp-btn_line .btn {
+		display:inline-block; margin-right:5px; padding:0 10px; line-height:210%;
+		font-size:13px; color:#fff;	font-weight:bold; text-decoration:none;
+		border-radius:3px;
+			-webkit-border-radius:3px;
+			-moz-border-radius:3px;
+			-o-border-radius:3px;
+	}
+	.cp-btn_line .btn:last-child {margin-right:0;}
+
+		/* button skins */
+		.btn.sk-bt1 {
+			border:1px solid #008080; border-right:1px solid #006666; border-bottom:1px solid #006666;
+			background:#008080;
+			background-image:linear-gradient(bottom, rgb(0,128,128) 0%, rgb(0,153,153) 100%);
+				background-image:-webkit-linear-gradient(bottom, rgb(0,128,128) 0%, rgb(0,153,153) 100%);
+				background-image:-moz-linear-gradient(bottom, rgb(0,128,128) 0%, rgb(0,153,153) 100%);
+				background-image:-o-linear-gradient(bottom, rgb(0,128,128) 0%, rgb(0,153,153) 100%);
+			text-shadow:-1px -1px 0 #006666;
+				-webkit-text-shadow:-1px -1px 0 #006666;
+				-moz-text-shadow:-1px -1px 0 #006666;
+				-o-text-shadow:-1px -1px 0 #006666;
+		}
+			.btn.sk-bt1:hover {
+				background-image:linear-gradient(top, rgb(0,128,128) 0%, rgb(0,153,153) 100%);
+					background-image:-webkit-linear-gradient(top, rgb(0,128,128) 0%, rgb(0,153,153) 100%);
+					background-image:-moz-linear-gradient(top, rgb(0,128,128) 0%, rgb(0,153,153) 100%);
+					background-image:-o-linear-gradient(top, rgb(0,128,128) 0%, rgb(0,153,153) 100%);
+			}
+		.btn.sk-bt2 {
+			color:#2b9999; border:1px solid #001e1e; border-right:1px solid #001010; border-bottom:1px solid #001010;
+			background:#008080;
+			background-image:linear-gradient(bottom, rgb(0,53,53) 0%, rgb(0,65,65) 100%);
+				background-image:-webkit-linear-gradient(bottom, rgb(0,53,53) 0%, rgb(0,65,65) 100%);
+				background-image:-moz-linear-gradient(bottom, rgb(0,53,53) 0%, rgb(0,65,65) 100%);
+				background-image:-o-linear-gradient(bottom, rgb(0,53,53) 0%, rgb(0,65,65) 100%);
+			text-shadow:-1px -1px 0 #001010;
+				-webkit-text-shadow:-1px -1px 0 #001e1e;
+				-moz-text-shadow:-1px -1px 0 #001e1e;
+				-o-text-shadow:-1px -1px 0 #001e1e;
+		}
+			.btn.sk-bt2:hover {
+				background-image:linear-gradient(top, rgb(0,53,53) 0%, rgb(0,65,65) 100%);
+					background-image:-webkit-linear-gradient(top, rgb(0,53,53) 0%, rgb(0,65,65) 100%);
+					background-image:-moz-linear-gradient(top, rgb(0,53,53) 0%, rgb(0,65,65) 100%);
+					background-image:-o-linear-gradient(top, rgb(0,53,53) 0%, rgb(0,65,65) 100%);
+			}
+
+
+
+	/** 
+	 * ==============================================
 	 *  @subsection: INFO BOX
 	 * 
 	 * ==============================================
@@ -319,6 +377,7 @@ body #navbar {
 			-o-text-shadow:1px 1px 0 #fff;
 	}
 	.cp-infobox .cp-bd .mt {margin-bottom:0 !important;}
+
 
 
 /** 
@@ -441,11 +500,11 @@ body #navbar {
 		 * ==============================================
 		 **/
 
-		.md-ft_module.opiniones {}
+		.md-ft_module.opiniones {margin:0 0 0 10px;}
 		.md-ft_module.opiniones .bd {font-size:12px; line-height:140%; color:#ccc;}
 		.md-ft_module.opiniones .bd .reviews-cnt {height:300px; overflow:auto;}
-		.md-ft_module.opiniones .mCSB_container {margin-right:13px;}
-		.md-ft_module.opiniones .mCustomScrollBox .mCSB_scrollTools {right:-6px;}
+		.md-ft_module.opiniones .mCSB_container {margin-right:19px;}
+		.md-ft_module.opiniones .mCustomScrollBox .mCSB_scrollTools {right:0;}
 		.md-ft_module.opiniones .reviews-cnt .review-item {margin-bottom:10px;}
 		.md-ft_module.opiniones .reviews-cnt .tx-review {
 			margin-bottom:5px; padding:7px 10px;
@@ -461,7 +520,8 @@ body #navbar {
 				-o-text-shadow:1px 1px 0 #002e2e;
 		}
 		.md-ft_module.opiniones .reviews-cnt .author {margin-right:5px; text-align:right;}
-		.md-ft_module.opiniones .reviews-cnt .author small {display:block; font-size:10px; color:#999;}
+		.md-ft_module.opiniones .reviews-cnt .author small {display:block; font-size:10px; line-height:130%; color:#999;}
+		.md-ft_module.opiniones .btn {font-size:11px;}
 
 
 		/** 
