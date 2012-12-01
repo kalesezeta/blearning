@@ -20,7 +20,7 @@
 
 	});
 
-	jQuery(window).load(function(){
+	jQuery(window).load(function() {
 
 		jQuery(".reviews-cnt").mCustomScrollbar({
 			scrollButtons:{
