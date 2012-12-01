@@ -137,7 +137,7 @@
 								<h3 class="box-title">El número de plazas está limitado a 100 alumnos.</h3>
 							</div><!-- .cp-hd -->
 							<div class="cp-bd">
-								<p class="mt">Todos los alumnos matriculados en este curso tendrán acceso gratuito a un curso Online <a href="#" title="Tell Me More">Tell Me More</a> en el idioma que elijan. Tell me More ha sido galardonado como solución Blended 2007, conquistando el «World of learning Award»</p>
+								<p class="mt">Todos los alumnos matriculados en este curso tendrán acceso gratuito a un curso Online <a class="lnk" href="#" title="Tell Me More">Tell Me More</a> en el idioma que elijan. Tell me More ha sido galardonado como solución Blended 2007, conquistando el «World of learning Award»</p>
 							</div><!-- .cp-bd -->
 						</div><!-- .cp-infobox -->
 					</div><!-- .sec-bd -->
@@ -162,7 +162,7 @@
 								<div class="reviews-cnt">
 									<?php include('includes/md-ft_module_opiniones-content.php'); ?><!-- Opiniones content -->
 									<p class="cp-btn_line tx-ct">
-										<a class="btn bt-sk1" href="http://www.uned.es/blearning/estadisticas/" title="Ver más opiniones">Ver más opiniones</a>
+										<a class="btn sk-bt2" href="http://www.uned.es/blearning/estadisticas/" title="Ver más opiniones">Ver más opiniones</a>
 									</p><!-- .cp-btn_line -->
 								</div><!-- .reviews-cnt -->
 							</div><!-- .bd -->
