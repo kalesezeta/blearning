@@ -13,8 +13,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<!-- STYLE SHEETS -->
-	<link rel="stylesheet" type="text/css" href="css/fonts.css" />
-	<link rel="stylesheet" type="text/css" href="css/styles.css" />
+	<link rel="stylesheet" type="text/css" href="css/bl_fonts.css" />
+	<link rel="stylesheet" type="text/css" href="css/bl_styles.css" />
 	<link rel="stylesheet" type="text/css" href="css/yui-reset.min.css" />
 	<link rel="stylesheet" type="text/css" href="css/jquery.mCustomScrollbar.css" />
 
@@ -22,6 +22,7 @@
 	<script src="js/jquery-1.8.2.min.js" type="text/javascript"></script><!-- jQuery 1.8.2 -->
 	<script src="js/jquery-ui-1.9.2.custom.min.js" type="text/javascript"></script><!-- jQuery UI 1.9.2 -->
 	<script src="js/jquery.mousewheel.min.js" type="text/javascript"></script><!-- jQuery Mouse Wheel -->
+	<script src="js/jquery.trunk8.min.js" type="text/javascript"></script><!-- jQuery Trunk8 -->
 	<script src="js/jquery.mCustomScrollbar.min.js" type="text/javascript"></script><!-- jQuery Custom Scrollbar -->
 	<script src="js/jquery.tweet.js" type="text/javascript"></script><!-- jQuery Tweet -->
 	<script src="js/blearning.utils.js" type="text/javascript"></script><!-- Site Utils -->
@@ -175,6 +176,7 @@
 								<h2 class="tx-title"><em>Ú</em>ltimos tweets</h2>
 							</div><!-- .hd -->
 							<div class="bd">
+							    <div id="latestTweets" class="query"></div>
 							</div><!-- .bd -->
 						</div><!-- .md-ft_module.ultimos_tweets -->
 					</div><!-- .col -->
