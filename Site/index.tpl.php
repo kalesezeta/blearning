@@ -160,9 +160,9 @@
 							</div><!-- .hd -->
 							<div class="bd">
 								<div class="reviews-cnt">
-									<?php include('includes/md-ft_module_opiniones-content.php'); ?><!-- Opiniones content -->
+									<?php include('includes/md-ft_module_opiniones-content.tpl.php'); ?>
 									<p class="cp-btn_line tx-ct">
-										<a class="btn sk-bt2" href="http://www.uned.es/blearning/estadisticas/" title="Ver más opiniones">Ver más opiniones</a>
+										<a class="btn sk-bt2" href="http://www.uned.es/blearning/estadisticas/" title="Ver más opiniones" target="_blank">Ver más opiniones</a>
 									</p><!-- .cp-btn_line -->
 								</div><!-- .reviews-cnt -->
 							</div><!-- .bd -->
