@@ -311,6 +311,7 @@ body #navbar {
 			-moz-border-radius:3px;
 			-o-border-radius:3px;
 	}
+	.cp-btn_line .btn:hover {background-image:none;}
 	.cp-btn_line .btn:last-child {margin-right:0;}
 
 		/* button skins */
@@ -326,15 +327,9 @@ body #navbar {
 				-moz-text-shadow:-1px -1px 0 #006666;
 				-o-text-shadow:-1px -1px 0 #006666;
 		}
-			.btn.sk-bt1:hover {
-				background-image:linear-gradient(top, rgb(0,128,128) 0%, rgb(0,153,153) 100%);
-					background-image:-webkit-linear-gradient(top, rgb(0,128,128) 0%, rgb(0,153,153) 100%);
-					background-image:-moz-linear-gradient(top, rgb(0,128,128) 0%, rgb(0,153,153) 100%);
-					background-image:-o-linear-gradient(top, rgb(0,128,128) 0%, rgb(0,153,153) 100%);
-			}
 		.btn.sk-bt2 {
 			color:#2b9999; border:1px solid #001e1e; border-right:1px solid #001010; border-bottom:1px solid #001010;
-			background:#008080;
+			background:#003535;
 			background-image:linear-gradient(bottom, rgb(0,53,53) 0%, rgb(0,65,65) 100%);
 				background-image:-webkit-linear-gradient(bottom, rgb(0,53,53) 0%, rgb(0,65,65) 100%);
 				background-image:-moz-linear-gradient(bottom, rgb(0,53,53) 0%, rgb(0,65,65) 100%);
@@ -342,14 +337,8 @@ body #navbar {
 			text-shadow:-1px -1px 0 #001010;
 				-webkit-text-shadow:-1px -1px 0 #001e1e;
 				-moz-text-shadow:-1px -1px 0 #001e1e;
-				-o-text-shadow:-1px -1px 0 #001e1e;
+				-o-text-shadow:-1px -1px 0 #001e1e
 		}
-			.btn.sk-bt2:hover {
-				background-image:linear-gradient(top, rgb(0,53,53) 0%, rgb(0,65,65) 100%);
-					background-image:-webkit-linear-gradient(top, rgb(0,53,53) 0%, rgb(0,65,65) 100%);
-					background-image:-moz-linear-gradient(top, rgb(0,53,53) 0%, rgb(0,65,65) 100%);
-					background-image:-o-linear-gradient(top, rgb(0,53,53) 0%, rgb(0,65,65) 100%);
-			}
 
 
 
