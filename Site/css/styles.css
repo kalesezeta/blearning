@@ -316,7 +316,7 @@ body #navbar {
 
 		/* button skins */
 		.btn.sk-bt1 {
-			border:1px solid #008080; border-right:1px solid #006666; border-bottom:1px solid #006666;
+			border:1px solid #008080; border-bottom:1px solid #006666;
 			background:#008080;
 			background-image:linear-gradient(bottom, rgb(0,128,128) 0%, rgb(0,153,153) 100%);
 				background-image:-webkit-linear-gradient(bottom, rgb(0,128,128) 0%, rgb(0,153,153) 100%);
@@ -327,18 +327,32 @@ body #navbar {
 				-moz-text-shadow:-1px -1px 0 #006666;
 				-o-text-shadow:-1px -1px 0 #006666;
 		}
+			.btn.sk-bt1:active {
+				border:1px solid #006666;
+				box-shadow:0 0 2px #006666 inset;
+					-webkit-box-shadow:0 0 2px #006666 inset;
+					-moz-box-shadow:0 0 2px #006666 inset;
+					-o-box-shadow:0 0 2px #006666 inset;
+			}
 		.btn.sk-bt2 {
-			color:#2b9999; border:1px solid #001e1e; border-right:1px solid #001010; border-bottom:1px solid #001010;
+			color:#2b9999; border:1px solid #001e1e; border-bottom:1px solid #001616;
 			background:#003535;
 			background-image:linear-gradient(bottom, rgb(0,53,53) 0%, rgb(0,65,65) 100%);
 				background-image:-webkit-linear-gradient(bottom, rgb(0,53,53) 0%, rgb(0,65,65) 100%);
 				background-image:-moz-linear-gradient(bottom, rgb(0,53,53) 0%, rgb(0,65,65) 100%);
 				background-image:-o-linear-gradient(bottom, rgb(0,53,53) 0%, rgb(0,65,65) 100%);
-			text-shadow:-1px -1px 0 #001010;
+			text-shadow:-1px -1px 0 #001e1e;
 				-webkit-text-shadow:-1px -1px 0 #001e1e;
 				-moz-text-shadow:-1px -1px 0 #001e1e;
 				-o-text-shadow:-1px -1px 0 #001e1e
 		}
+			.btn.sk-bt2:active {
+				border:1px solid #001616;
+				box-shadow:0 0 2px #001616 inset;
+					-webkit-box-shadow:0 0 2px #001616 inset;
+					-moz-box-shadow:0 0 2px #001616 inset;
+					-o-box-shadow:0 0 2px #001616 inset;
+			}
 
 
 
@@ -478,7 +492,14 @@ body #navbar {
 	 **/
 
 	.md-ft_module {margin:0 10px;}
-	.md-ft_module .hd {margin-bottom:15px; font:30px/120% 'MidietSansLight', Helvetica, sans-serif; color:#fff;}
+	.md-ft_module .hd {
+		margin-bottom:15px;
+		font:30px/120% 'MidietSansLight', Helvetica, sans-serif; color:#fff;
+		text-shadow:-1px -1px 0 #001616;
+			-webkit-text-shadow:-1px -1px 0 #001616;
+			-moz-text-shadow:-1px -1px 0 #001616;
+			-o-text-shadow:-1px -1px 0 #001616;
+		}
 		.md-ft_module .hd em {font-size:40px; color:#a4cc00;}
 	.md-ft_module .bd {}
 
