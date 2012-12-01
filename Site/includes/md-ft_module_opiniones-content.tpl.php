@@ -7,7 +7,7 @@
 									<div class="review-item">
 										<p class="tx-review">"El descubrimiento de una nueva forma de aprender realmente productiva y divertida, así como la adquisición de unos conocimientos fundamentales para mi actual actividad profesional."</p>
 										<p class="author">
-											 Iñaki Mendinueta Garin <small>Director de Programas Formativos. (Curso 2011-2012)</small>
+											 Iñaki Mendinueta Garin <small>Director de Programas Formativos (Curso 2011-2012)</small>
 										</p><!-- .author -->
 									</div><!-- .review-item -->
 									<div class="review-item">
