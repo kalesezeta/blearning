@@ -13,7 +13,7 @@
 			jQuery('#limiter-cnt').css('margin-top', Number(navbarHeight+32) + 'px');
 		}
 
-		jQuery(window).resize(function(e) {
+		jQuery(window).resize(function() {
 				navbarHeight = jQuery("#navbar").height();
 				jQuery('#limiter-cnt').css('margin-top', Number(navbarHeight+32) + 'px');
 		});
@@ -26,6 +26,14 @@
 			scrollButtons:{
 				enable: false
 			}
+		});
+
+		jQuery(function() {
+			jQuery("#latestTweets").tweet({
+				username: "blearningUNED",
+				count: 4,
+				loading_text: "Cargando tweets..."
+			});
 		});
 
 	});
