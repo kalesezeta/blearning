@@ -20,7 +20,7 @@ body {
 	background:#fff;
 }
 #main {
-	position:absolute; width:100%;
+	position:absolute; width:100%; min-width:950px;
 }
 #limiter-cnt,
 .limiter {width:950px; margin:0 auto; padding-bottom:1px;}
@@ -28,12 +28,8 @@ body {
 a, .lnk {
 	color:#009999; text-decoration:none; cursor:pointer;
 	text-decoration:underline;
-	transition:color 0.25s ease-in-out;
-		-webkit-transition:color 0.25s ease-in-out;
-		-moz-transition:color 0.25s ease-in-out;
-		-o-transition:color 0.25s ease-in-out;
 }
-a:hover, .lnk:hover {color:#006666; text-decoration:none;}
+a:hover, .lnk:hover {text-decoration:none;}
 
 
 
@@ -281,7 +277,7 @@ body #navbar {
 			-o-shadow:0 0 7px #333;
 	}
 	#rg-ft .grp-col {margin:30px 0; background:transparent url(../images/bg-ft-fakecols.png) 50% 0 repeat-y;}
-	#rg-ft .col {width:310px; margin-left:10px;}
+	#rg-ft .col {float:left; width:310px; margin-left:10px;}
 	#rg-ft .col.first {margin-left:0; border-left:0;}
 	#rg-ft .col.last {border-right:none;}
 
@@ -304,7 +300,7 @@ body #navbar {
 
 	.cp-btn_line {}
 	.cp-btn_line .btn {
-		display:inline-block; margin-right:5px; padding:0 10px; line-height:210%;
+		display:inline-block; margin-right:5px; padding:0 10px; line-height:230%;
 		font-size:13px; color:#fff;	font-weight:bold; letter-spacing:0.025em; text-decoration:none;
 		border-radius:3px;
 			-webkit-border-radius:3px;
@@ -516,7 +512,7 @@ body #navbar {
 		.md-ft_module.opiniones .mCustomScrollBox .mCSB_scrollTools {right:0;}
 		.md-ft_module.opiniones .reviews-cnt .review-item {margin-bottom:10px;}
 		.md-ft_module.opiniones .reviews-cnt .tx-review {
-			margin-bottom:5px; padding:7px 10px;
+			margin-bottom:5px; padding:8px 10px;
 			border-right:1px solid #002a2a; border-bottom:1px solid #002a2a;
 			background-color:#004040;
 			border-radius:3px;
@@ -540,29 +536,101 @@ body #navbar {
 		 * ==============================================
 		 **/
 
+		.md-ft_module.ultimos_tweets {}
+		.md-ft_module.ultimos_tweets .bd {position:relative;}
+		.md-ft_module.ultimos_tweets .goto-tw {position:absolute; top:-50px; right:0;}
+		.md-ft_module.ultimos_tweets .goto-tw a {
+			display:block; width:33px; height:27px;
+			background:transparent url(../images/spr-commons.png) -455px -64px no-repeat;
+			opacity:0.5;
+				-webkit-opacity:0.5;
+				-moz-opacity:0.5;
+				-o-opacity:0.5;
+			transition:opacity 0.25s ease-in;
+				-webkit-transition:opacity 0.25s ease-in;
+				-moz-transition:opacity 0.25s ease-in;
+				-o-transition:opacity 0.25s ease-in;
+		}
+		.md-ft_module.ultimos_tweets .goto-tw a:hover {
+			opacity:1;
+				-webkit-opacity:1;
+				-moz-opacity:1;
+				-o-opacity:1;
+		}
+		.md-ft_module.ultimos_tweets .goto-tw em {display:none; visibility:hidden;}
 		.tweet,
-		.query {font: 120% Georgia, serif; color: #085258;}
+		.query {font:13px/140% Helvetica, sans-serif; color:#fff;}
 		.tweet_list {
-			-webkit-border-radius: 0.5em;
-			-moz-border-radius: 0.5em;
-			border-radius: 0.5em;
-			list-style: none;
-			margin: 0;
-			padding: 0;
-			overflow-y: hidden;
-			background-color: #8ADEE2;
-			font-size:12px;
-			font-family:Helvetica;
+			margin:0; padding:0;
+			overflow:hidden; list-style:none;
+			color:#ccc; background-color:#004040;
+			border-bottom:1px solid #002a2a;
+			border-right:1px solid #002a2a;
+			border-radius:3px;
+				-webkit-border-radius:3px;
+				-moz-border-radius:3px;
+				-o-border-radius:3px;
+			text-shadow:1px 1px 0 #002e2e;
+				-webkit-text-shadow:1px 1px 0 #002e2e;
+				-moz-text-shadow:1px 1px 0 #002e2e;
+				-o-text-shadow:1px 1px 0 #002e2e;
 		}
 			.tweet_list li {
-				padding: 0.5em; list-style-type: none;
-				overflow-y: auto; overflow-x: hidden; 
+				height:54px; padding:10px;
+				overflow:hidden; list-style-type:none;
+				border-top:1px solid #002a2a;
 			}
-			.tweet_list li a {color: #0C717A;}
-			.tweet_list .tweet_even {background-color: #91E5E7;}
-			.tweet_list .tweet_avatar {padding-right: .5em; float: left;}
-			.tweet_list .tweet_avatar img {vertical-align: middle;}
+			.tweet_list li.tweet_first {border-top:0;}
 
+
+		/** 
+		 * ==============================================
+		 *  @subsection: CONTACT FORM
+		 *  @use: jQuery Form Validation & Hints (js/jquery.form-validation-and-hints.js)
+		 * ==============================================
+		 **/
+
+		#contactForm {}
+		#contactForm label {display:none; visibility:hidden;}
+		#contactForm input.text,
+		#contactForm textarea {
+			margin-bottom:10px;
+			font-size:13px; color:#ccc;
+			border:1px solid #002626; border-right:1px solid #004444; border-bottom:1px solid #004444;
+			background:#004040;
+			border-radius:3px;
+				-webkit-border-radius:3px;
+				-moz-border-radius:3px;
+				-o-border-radius:3px;
+			box-shadow:0 0 3px #003333 inset;
+				-webkit-box-shadow:0 0 3px #003333 inset;
+				-moz-box-shadow:0 0 3px #003333 inset;
+				-o-box-shadow:0 0 3px #003333 inset;
+			text-shadow:1px 1px 0 #002e2e;
+				-webkit-text-shadow:1px 1px 0 #002e2e;
+				-moz-text-shadow:1px 1px 0 #002e2e;
+				-o-text-shadow:1px 1px 0 #002e2e;
+		}
+		#contactForm input.text {width:284px; height:28px; padding:0 5px;}
+		#contactForm textarea {width:284px; height:166px; padding:7px 5px;}
+		#contactForm .btn {height:28px; padding:0 10px; cursor:pointer;}
+
+		/* validation errors */
+		#contactForm .error INPUT, #contactForm .error TEXTAREA, #contactForm .error SELECT {
+			color:#333;
+			border:1px solid #ff3333;
+			background:#ffe6e7;
+			box-shadow:0 0 3px #993333 inset;
+				-webkit-box-shadow:0 0 3px #993333 inset;
+				-moz-box-shadow:0 0 3px #993333 inset;
+				-o-box-shadow:0 0 3px #993333 inset;
+			text-shadow:1px 1px 0 #fff;
+				-webkit-text-shadow:1px 1px 0 #fff;
+				-moz-text-shadow:1px 1px 0 #fff;
+				-o-text-shadow:1px 1px 0 #fff;
+		}
+		.iferror {margin:0; display:none;}
+		.error .iferror {display:block; margin:-5px 0 8px; font-size:12px; color:#ff3333;}
 
 
 /** 
@@ -573,6 +641,7 @@ body #navbar {
 
 @media only screen and (max-width:415px) { /* 415px */
 
+	#main {width:100%; min-width:auto;}
 	#limiter-cnt {width:100%; padding-top:47px;}
 	.limiter {width:100%;}	
 
@@ -650,8 +719,13 @@ body #navbar {
 	 **/
 
 	#rg-ft .grp-col {background:none;}
-	#rg-ft .grp-col .col {width:100%; margin:0 0 10px;}
-	#rg-ft .grp-col .col.last {margin:0;}
+	#rg-ft .grp-col .col {
+		float:none;
+		width:auto; margin:0 20px; padding:20px 0;
+		border-bottom:1px dotted #001e1e; border-top:1px dotted #004040;
+	}
+	#rg-ft .grp-col .col.first {padding-top:0; border-top:0;}
+	#rg-ft .grp-col .col.last {border-bottom:0; padding-bottom:0;}
 
 
 	/** 
@@ -693,6 +767,29 @@ body #navbar {
 		background:transparent url(../images/bg-quotes_hq.png) 0 0 no-repeat;
 		background-size:41px 36px;
 	}
+
+
+	/** 
+	 * ==============================================
+	 *  @subsection: FOOTER MODULE
+	 * 
+	 * ==============================================
+	 **/
+
+	.md-ft_module {margin:0;}
+
+	/* .opiniones */
+	.md-ft_module.opiniones {margin:0;}
+
+	/* .ultimos_tweets */
+	.md-ft_module.ultimos_tweets .goto-tw a {
+		background:transparent url(../images/spr-commons_hq.png) -455px -64px no-repeat;
+		background-size:750px 375px;
+	}
+
+	/* contact form */
+	#contactForm input.text {width:96%;}
+	#contactForm textarea {width:96%;}
 
 }
 
