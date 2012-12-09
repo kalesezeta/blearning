@@ -25,6 +25,7 @@
 	<script src="js/jquery.trunk8.min.js" type="text/javascript"></script><!-- jQuery Trunk8 -->
 	<script src="js/jquery.mCustomScrollbar.min.js" type="text/javascript"></script><!-- jQuery Custom Scrollbar -->
 	<script src="js/jquery.tweet.js" type="text/javascript"></script><!-- jQuery Tweet -->
+	<script src="js/jquery.form-validation-and-hints.js" type="text/javascript"></script><!-- jQuery Form Validation & Hints -->
 	<script src="js/blearning.utils.js" type="text/javascript"></script><!-- Site Utils -->
 
 </head><!-- HEAD -->
@@ -154,7 +155,7 @@
 
 				<div class="grp-col cf">
 
-					<div class="col first fl">
+					<div class="col first">
 						<div class="md-ft_module opiniones md">
 							<div class="hd">
 								<h2 class="tx-title"><em>O</em>piniones</h2>
@@ -170,26 +171,55 @@
 						</div><!-- .md-ft_module.opiniones -->
 					</div><!-- .col.first -->
 
-					<div class="col fl">
+					<div class="col">
 						<div class="md-ft_module ultimos_tweets md">
 							<div class="hd">
-								<h2 class="tx-title"><em>Ú</em>ltimos tweets</h2>
+								<h2 class="tx-title"><em>Ú</em>ltimos Tweets</h2>
 							</div><!-- .hd -->
 							<div class="bd">
+								<span class="goto-tw"><a href="" target="_blank"><em>B-learning Tweeter</em></a></span>
 							    <div id="latestTweets" class="query"></div>
 							</div><!-- .bd -->
 						</div><!-- .md-ft_module.ultimos_tweets -->
 					</div><!-- .col -->
 
-					<div class="col last fl">
+					<div class="col last">
 						<div class="md-ft_module contacto md">
 							<div class="hd">
 								<h2 class="tx-title"><em>C</em>ontacto</h2>
 							</div><!-- .hd -->
 							<div class="bd">
+								<form method="post" action="includes/contactform.php" id="contactForm">
+									<fieldset>
+										<div class="field required">
+											<p>
+												<label>Required field</label>
+												<input type="text" name="name" class="text verifyText" title="*Nombre" id="ctform-name" />
+												<span class="iferror">Nombre requerido</span>
+											</p>
+										</div><!-- .field -->
+										<div class="field required">
+											<p>
+												<label>Email</label>
+												<input type="text" class="text verifyMail" title="*E-mail:" id="ctform-email" />
+												<span class="iferror">E-mail inválido</span>
+											</p>
+										</div><!-- .field -->
+										<div class="field required">
+											<p>
+												<label>Mensaje</label>
+												<textarea class="tx-message" title="*Mensaje:" id="ctform-message"></textarea>
+												<span class="iferror">Escriba su mensaje</span>
+											</p>
+										</div><!-- .field -->
+										<div class="cp-btn_line tx-rt">
+											<input type="submit" name="submit" value="Enviar" class="btn sk-bt2" />
+										</div><!-- .cp-btn_line -->
+									</fieldset>
+								</form>
 							</div><!-- .bd -->
 						</div><!-- .md-ft_module.contacto -->
-					</div><!-- .col -->
+					</div><!-- .col.last -->
 
 				</div><!-- .grp-col -->
 
