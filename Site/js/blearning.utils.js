@@ -19,12 +19,76 @@ var BL = {};
 
 
 /**
+ * Content limiter dinamic margin
+ */
+
+BL.siteContentMargin = function () {
+
+	var navbarWidth = jQuery("#navbar").width();
+	var navbarHeight = jQuery("#navbar").height();
+
+	if (navbarWidth <= 400) {
+		jQuery("#limiter-cnt").css("margin-top", Number(navbarHeight+34) + 'px');
+	}
+	else {
+		jQuery("#limiter-cnt").css("margin-top", Number(navbarHeight+32) + 'px');
+	}
+
+	jQuery(window).resize(function() {
+		navbarHeight = jQuery("#navbar").height();
+		jQuery("#limiter-cnt").css("margin-top", Number(navbarHeight+32) + 'px');
+	});
+
+};
+
+
+
+/**
+ * Tweets displayer
+ */
+
+BL.tweetsDisplayer = function () {
+
+	// Tweets display
+	jQuery(function() {
+		jQuery("#latestTweets").tweet({
+			username: "blearningUNED",
+			count: 4,
+			loading_text: "Cargando Tweets..."
+		});
+	});
+
+	// Tweets truncator
+	var tweetsTruncator = function(){
+		if (jQuery(".tweet_text").length != 0) {
+			jQuery(".tweet_text").each(function() {
+				jQuery(this).trunk8({
+					lines: 3,
+					side: "center"
+				});
+				console.log("tweet_text");
+			}).promise().done(function() {
+				clearInterval(tweetsTrunk8Int);
+				console.log("Tweets truncados")
+			})
+		}
+	};
+
+	var tweetsTrunk8Int = setInterval(tweetsTruncator, 250);
+
+};
+
+
+
+/**
  * Util name
  */
 
 /*
 BL.foo = function (jObj) {
+
 	bar
+
 };
 */
 
