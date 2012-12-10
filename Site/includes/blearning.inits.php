@@ -5,6 +5,17 @@
 		BL.siteContentMargin();
 		BL.tweetsDisplayer();
 
+
+		jQuery('.lst-navbar').onePageNav({
+			begin: function() {
+				console.log('start');
+			},
+			end: function() {
+				console.log('stop');
+			},
+			scrollOffset: 100
+		});
+
 	});
 
 	jQuery(window).load(function() {

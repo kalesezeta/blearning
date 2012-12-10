@@ -66,10 +66,8 @@ BL.tweetsDisplayer = function () {
 					lines: 3,
 					side: "center"
 				});
-				console.log("tweet_text");
 			}).promise().done(function() {
 				clearInterval(tweetsTrunk8Int);
-				console.log("Tweets truncados")
 			})
 		}
 	};

@@ -22,6 +22,8 @@
 	<script src="js/jquery-1.8.2.min.js" type="text/javascript"></script><!-- jQuery 1.8.2 -->
 	<script src="js/jquery-ui-1.9.2.custom.min.js" type="text/javascript"></script><!-- jQuery UI 1.9.2 -->
 	<script src="js/jquery.mousewheel.min.js" type="text/javascript"></script><!-- jQuery Mouse Wheel -->
+	<script src="js/jquery.scrollTo.js" type="text/javascript"></script><!-- jQuery Scroll To -->
+	<script src="js/jquery.nav.js" type="text/javascript"></script><!-- jQuery Nav -->
 	<script src="js/jquery.trunk8.min.js" type="text/javascript"></script><!-- jQuery Trunk8 -->
 	<script src="js/jquery.mCustomScrollbar.min.js" type="text/javascript"></script><!-- jQuery Custom Scrollbar -->
 	<script src="js/jquery.tweet.js" type="text/javascript"></script><!-- jQuery Tweet -->
@@ -31,7 +33,7 @@
 </head><!-- HEAD -->
 
 
-<body class=""><!-- BODY --><!-- .st-debug -->
+<body class="" id="top"><!-- BODY --><!-- .st-debug -->
 
 	<div id="main">
 
@@ -42,12 +44,12 @@
 			<div id="wrp-navbar" class="tx-ct">
 
 				<p class="lst-navbar">
-					<span class="lst-item first-item"><a href="#" title="Objetivos">Objetivos</a></span>
-					<span class="lst-item"><a href="#" title="Destinatarios">Destinatarios</a></span>
-					<span class="lst-item"><a href="#" title="Titulación">Titulación</a></span>
-					<span class="lst-item"><a href="#" title="Equipo">Equipo docente</a></span>
-					<span class="lst-item"><a href="#" title="Programa">Programa</a></span>
-					<span class="lst-item"><a href="#" title="Inscripción">Inscripción</a></span>
+					<span class="lst-item first-item"><a title="Objetivos" href="#objetivos">Objetivos</a></span>
+					<span class="lst-item"><a title="Destinatarios" href="#destinatarios">Destinatarios</a></span>
+					<span class="lst-item"><a title="Titulación" href="#titulacion">Titulación</a></span>
+					<span class="lst-item"><a title="Equipo docente" href="#edocente">Equipo docente</a></span>
+					<span class="lst-item"><a title="Programa" href="#programa">Programa</a></span>
+					<span class="lst-item"><a title="Inscripción" href="#inscripcion">Inscripción</a></span>
 				</p><!-- .lst-navbar -->
 
 				<select name="cmb-navbar" class="cmb-navbar">
@@ -73,19 +75,19 @@
 
 				<p class="organized-by">
 					<span class="org-title">Organizado por:</span>
-					<a href="" class="org-uned" title="UNED"><em>UNED</em></a>
-					<a href="" class="org-foundation" title="Fundación Uned"><em>Fundación Uned</em></a>
+					<a class="org-uned" title="UNED"><em>UNED</em></a>
+					<a class="org-foundation" title="Fundación Uned"><em>Fundación Uned</em></a>
 				</p><!-- .org-by-->
 
 				<ul class="lst-social-links">
 					<li class="lst-item lnk-fb fl">
-						<a href="" title="Facebook"><em>Facebook</em><span class="ico"></span><span class="stick"></span></a>
+						<a title="Facebook"><em>Facebook</em><span class="ico"></span><span class="stick"></span></a>
 					</li><!-- .lst-item -->
 					<li class="lst-item lnk-tw fl">
-						<a href="" title="Twitter"><em>Twitter</em><span class="ico"></span><span class="stick"></span></a>
+						<a title="Twitter"><em>Twitter</em><span class="ico"></span><span class="stick"></span></a>
 					</li><!-- .lst-item -->
 					<li class="lst-item lnk-contact fl">
-						<a href="#" title="Contacto"><em>Contacto</em><span class="ico"></span><span class="stick"></span></a>
+						<a title="Contacto"><em>Contacto</em><span class="ico"></span><span class="stick"></span></a>
 					</li><!-- .lst-item -->
 				</ul><!-- .lst-social-links -->
 
@@ -99,7 +101,7 @@
 				</div><!-- .md-st-title -->
 
 				<!-- OBJETIVOS -->
-				<div class="md-section md sec-odd objetivos cf">
+				<div class="md-section md sec-odd objetivos cf" id="objetivos">
 					<div class="sec-hd">
 						<h2 class="tx-title"><em>O</em>bjetivos</h2>
 						<div class="mob-hr">
@@ -120,7 +122,102 @@
 				</div><!-- .md-section.objetivos -->
 
 				<!-- DESTINATARIOS -->
-				<div class="md-section md sec-even destinatarios cf">
+				<div class="md-section md sec-even destinatarios cf" id="destinatarios">
+					<div class="sec-hd">
+						<h2 class="tx-title"><em>D</em>estinatarios</h2>
+						<div class="mob-hr">
+							<div class="line">
+								<span class="line-closer l"></span><span class="line-closer r"></span>
+							</div><!-- .line -->
+						</div><!-- .mob-hr -->
+						<div class="mg"></div><!-- .mg -->
+					</div><!-- .sec-hd -->
+					<div class="sec-bd">
+						<span class="line-closer tl"></span>
+						<span class="line-closer bl"></span>
+						<p class="mt">Este curso va dirigido a cualquier interesado en planificar y gestionar y dirigir programas de educación mediados por las NTIC’s, tanto en el mundo institucional (universidades y centros educativos públicos o privados de cualquier nivel educativo) como del mundo empresarial (departamentos de formación, departamentos de recursos humanos, etc.).</p>
+						<div class="cp-infobox cp">
+							<div class="cp-hd">
+								<h3 class="box-title">El número de plazas está limitado a 100 alumnos.</h3>
+							</div><!-- .cp-hd -->
+							<div class="cp-bd">
+								<p class="mt">Todos los alumnos matriculados en este curso tendrán acceso gratuito a un curso Online <a class="lnk" href="#" title="Tell Me More">Tell Me More</a> en el idioma que elijan. Tell me More ha sido galardonado como solución Blended 2007, conquistando el «World of learning Award»</p>
+							</div><!-- .cp-bd -->
+						</div><!-- .cp-infobox -->
+					</div><!-- .sec-bd -->
+					<div class="sec-ft"><span class="ft-bullets"></span></div>
+				</div><!-- .md-section.destinatarios -->
+
+				<!-- TITULACIÓN -->
+				<div class="md-section md sec-odd destinatarios cf" id="titulacion">
+					<div class="sec-hd">
+						<h2 class="tx-title"><em>O</em>bjetivos</h2>
+						<div class="mob-hr">
+							<div class="line">
+								<span class="line-closer l"></span><span class="line-closer r"></span>
+							</div><!-- .line -->
+						</div><!-- .mob-hr -->
+						<div class="mg"></div><!-- .mg -->
+					</div><!-- .sec-hd -->
+					<div class="sec-bd">
+						<span class="line-closer tr"></span>
+						<span class="line-closer br"></span>
+						<p class="mt">La innovación de las tecnológicas digitales de las últimas décadas ha tenido un enorme impacto en las posibilidades del aprendizaje en entornos distribuidos. La NTICs nos permiten. hoy día. tener interacciones en tiempo real con niveles de fidelidad similares a aquellos propios de entornos no virtuales. Hay. además. un interés creciente en las interacciones asistidas por ordenador: trabajos cooperativos; comunidades virtuales; mensajería instantánea; blogs. etc,</p>
+						<p class="mt">Aunque resulta imposible saber con certeza lo que deparara el futuro en esta nueva sociedad cambiante. todo parece indicar que la tendencia son los sistemas de aprendizaje mixtos: presenciales y a distancia (Blended learning o. simplemente. b-leamlngy Así. es posible que lo que hoy se denomina b-Iearning pueda llegar a ser denominado simplemente aprendizaje. El b-Ieamlng está aquí para quedarse. La razón más poderosa es su gran eficacia en la adquisición de estrategias y competencias por parte de quien aprende.</p>
+						<q class="mq">Nuestro trabajo consiste en formar expertos en la creación. gestión. diseño y dirección de proyectos de Educación a Distancia en la modalidad de learning y e-Iearning, tanto en instituciones educativas como en empresas”</q>
+					</div><!-- .sec-bd -->
+					<div class="sec-ft"><span class="ft-bullets"></span></div>
+				</div><!-- .md-section.titulacion -->
+
+				<!-- EQUIPO DOCENTE -->
+				<div class="md-section md sec-even destinatarios cf" id="edocente">
+					<div class="sec-hd">
+						<h2 class="tx-title"><em>D</em>estinatarios</h2>
+						<div class="mob-hr">
+							<div class="line">
+								<span class="line-closer l"></span><span class="line-closer r"></span>
+							</div><!-- .line -->
+						</div><!-- .mob-hr -->
+						<div class="mg"></div><!-- .mg -->
+					</div><!-- .sec-hd -->
+					<div class="sec-bd">
+						<span class="line-closer tl"></span>
+						<span class="line-closer bl"></span>
+						<p class="mt">Este curso va dirigido a cualquier interesado en planificar y gestionar y dirigir programas de educación mediados por las NTIC’s, tanto en el mundo institucional (universidades y centros educativos públicos o privados de cualquier nivel educativo) como del mundo empresarial (departamentos de formación, departamentos de recursos humanos, etc.).</p>
+						<div class="cp-infobox cp">
+							<div class="cp-hd">
+								<h3 class="box-title">El número de plazas está limitado a 100 alumnos.</h3>
+							</div><!-- .cp-hd -->
+							<div class="cp-bd">
+								<p class="mt">Todos los alumnos matriculados en este curso tendrán acceso gratuito a un curso Online <a class="lnk" href="#" title="Tell Me More">Tell Me More</a> en el idioma que elijan. Tell me More ha sido galardonado como solución Blended 2007, conquistando el «World of learning Award»</p>
+							</div><!-- .cp-bd -->
+						</div><!-- .cp-infobox -->
+					</div><!-- .sec-bd -->
+				</div><!-- .md-section.destinatarios -->
+
+				<!-- PROGRAMA -->
+				<div class="md-section md sec-odd programa cf" id="programa">
+					<div class="sec-hd">
+						<h2 class="tx-title"><em>O</em>bjetivos</h2>
+						<div class="mob-hr">
+							<div class="line">
+								<span class="line-closer l"></span><span class="line-closer r"></span>
+							</div><!-- .line -->
+						</div><!-- .mob-hr -->
+						<div class="mg"></div><!-- .mg -->
+					</div><!-- .sec-hd -->
+					<div class="sec-bd">
+						<span class="line-closer tr"></span>
+						<span class="line-closer br"></span>
+						<p class="mt">La innovación de las tecnológicas digitales de las últimas décadas ha tenido un enorme impacto en las posibilidades del aprendizaje en entornos distribuidos. La NTICs nos permiten. hoy día. tener interacciones en tiempo real con niveles de fidelidad similares a aquellos propios de entornos no virtuales. Hay. además. un interés creciente en las interacciones asistidas por ordenador: trabajos cooperativos; comunidades virtuales; mensajería instantánea; blogs. etc,</p>
+						<p class="mt">Aunque resulta imposible saber con certeza lo que deparara el futuro en esta nueva sociedad cambiante. todo parece indicar que la tendencia son los sistemas de aprendizaje mixtos: presenciales y a distancia (Blended learning o. simplemente. b-leamlngy Así. es posible que lo que hoy se denomina b-Iearning pueda llegar a ser denominado simplemente aprendizaje. El b-Ieamlng está aquí para quedarse. La razón más poderosa es su gran eficacia en la adquisición de estrategias y competencias por parte de quien aprende.</p>
+						<q class="mq">Nuestro trabajo consiste en formar expertos en la creación. gestión. diseño y dirección de proyectos de Educación a Distancia en la modalidad de learning y e-Iearning, tanto en instituciones educativas como en empresas”</q>
+					</div><!-- .sec-bd -->
+					<div class="sec-ft"><span class="ft-bullets"></span></div>
+				</div><!-- .md-section.titulacion -->
+
+				<!-- INCRIPCIÓN -->
+				<div class="md-section md sec-even inscripcion cf" id="inscripcion">
 					<div class="sec-hd">
 						<h2 class="tx-title"><em>D</em>estinatarios</h2>
 						<div class="mob-hr">
@@ -177,7 +274,7 @@
 								<h2 class="tx-title"><em>Ú</em>ltimos Tweets</h2>
 							</div><!-- .hd -->
 							<div class="bd">
-								<span class="goto-tw"><a href="" target="_blank"><em>B-learning Tweeter</em></a></span>
+								<span class="goto-tw"><a target="_blank"><em>B-learning Tweeter</em></a></span>
 							    <div id="latestTweets" class="query"></div>
 							</div><!-- .bd -->
 						</div><!-- .md-ft_module.ultimos_tweets -->
@@ -222,6 +319,13 @@
 					</div><!-- .col.last -->
 
 				</div><!-- .grp-col -->
+
+				<div class="copyr tx-ct">
+					<div class="wrp-copyr">
+						<p class="ft-brand cf"><span class="bl-logo fl"><em>B-learning</em></span> <span class="uned-copyr fl">© UNED, 2012.</span></p>
+						<p class="tx-copyr">Curso de Experto en Diseño, Gestión y Dirección de Proyectos B-Learning</p>
+					</div><!-- .wrp-copyr -->
+				</div><!-- .copyr -->
 
 			</div><!-- .limiter -->
 
