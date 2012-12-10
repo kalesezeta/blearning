@@ -44,6 +44,32 @@ BL.siteContentMargin = function () {
 
 
 /**
+ * Navigation setup
+ */
+
+BL.navigationSetup = function () {
+
+	jQuery(".lst-navbar a").each(function() {
+
+		var page = jQuery('html, body');
+
+		jQuery(this).click(function(e) {
+
+			var _target = jQuery(this);
+			var target = _target.attr("href");
+			var targetPos = jQuery(target).offset().top;
+
+			page.stop().scrollTo(targetPos + -100, 500, {easing:'easeOutQuart'});
+			e.preventDefault();
+
+		});
+	});
+
+};
+
+
+
+/**
  * Tweets displayer
  */
 

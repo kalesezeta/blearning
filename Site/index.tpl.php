@@ -1,4 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#" xml:lang="es" lang="es">
 
 <head><!-- HEAD -->
@@ -22,8 +22,7 @@
 	<script src="js/jquery-1.8.2.min.js" type="text/javascript"></script><!-- jQuery 1.8.2 -->
 	<script src="js/jquery-ui-1.9.2.custom.min.js" type="text/javascript"></script><!-- jQuery UI 1.9.2 -->
 	<script src="js/jquery.mousewheel.min.js" type="text/javascript"></script><!-- jQuery Mouse Wheel -->
-	<script src="js/jquery.scrollTo.js" type="text/javascript"></script><!-- jQuery Scroll To -->
-	<script src="js/jquery.nav.js" type="text/javascript"></script><!-- jQuery Nav -->
+	<script src="js/jquery.scrollTo-1.4.3.1-min.js" type="text/javascript"></script><!-- jQuery ScrollTo 1.4.3.1 -->
 	<script src="js/jquery.trunk8.min.js" type="text/javascript"></script><!-- jQuery Trunk8 -->
 	<script src="js/jquery.mCustomScrollbar.min.js" type="text/javascript"></script><!-- jQuery Custom Scrollbar -->
 	<script src="js/jquery.tweet.js" type="text/javascript"></script><!-- jQuery Tweet -->
@@ -33,7 +32,7 @@
 </head><!-- HEAD -->
 
 
-<body class="" id="top"><!-- BODY --><!-- .st-debug -->
+<body class=""><!-- BODY --><!-- .st-debug -->
 
 	<div id="main">
 
@@ -145,13 +144,12 @@
 							</div><!-- .cp-bd -->
 						</div><!-- .cp-infobox -->
 					</div><!-- .sec-bd -->
-					<div class="sec-ft"><span class="ft-bullets"></span></div>
 				</div><!-- .md-section.destinatarios -->
 
 				<!-- TITULACIÓN -->
-				<div class="md-section md sec-odd destinatarios cf" id="titulacion">
+				<div class="md-section md sec-odd titulacion cf" id="titulacion">
 					<div class="sec-hd">
-						<h2 class="tx-title"><em>O</em>bjetivos</h2>
+						<h2 class="tx-title"><em>T</em>itulación</h2>
 						<div class="mob-hr">
 							<div class="line">
 								<span class="line-closer l"></span><span class="line-closer r"></span>
@@ -162,17 +160,15 @@
 					<div class="sec-bd">
 						<span class="line-closer tr"></span>
 						<span class="line-closer br"></span>
-						<p class="mt">La innovación de las tecnológicas digitales de las últimas décadas ha tenido un enorme impacto en las posibilidades del aprendizaje en entornos distribuidos. La NTICs nos permiten. hoy día. tener interacciones en tiempo real con niveles de fidelidad similares a aquellos propios de entornos no virtuales. Hay. además. un interés creciente en las interacciones asistidas por ordenador: trabajos cooperativos; comunidades virtuales; mensajería instantánea; blogs. etc,</p>
-						<p class="mt">Aunque resulta imposible saber con certeza lo que deparara el futuro en esta nueva sociedad cambiante. todo parece indicar que la tendencia son los sistemas de aprendizaje mixtos: presenciales y a distancia (Blended learning o. simplemente. b-leamlngy Así. es posible que lo que hoy se denomina b-Iearning pueda llegar a ser denominado simplemente aprendizaje. El b-Ieamlng está aquí para quedarse. La razón más poderosa es su gran eficacia en la adquisición de estrategias y competencias por parte de quien aprende.</p>
-						<q class="mq">Nuestro trabajo consiste en formar expertos en la creación. gestión. diseño y dirección de proyectos de Educación a Distancia en la modalidad de learning y e-Iearning, tanto en instituciones educativas como en empresas”</q>
+						[TITULACIÓN]
 					</div><!-- .sec-bd -->
 					<div class="sec-ft"><span class="ft-bullets"></span></div>
 				</div><!-- .md-section.titulacion -->
 
 				<!-- EQUIPO DOCENTE -->
-				<div class="md-section md sec-even destinatarios cf" id="edocente">
+				<div class="md-section md sec-even edocente cf" id="edocente">
 					<div class="sec-hd">
-						<h2 class="tx-title"><em>D</em>estinatarios</h2>
+						<h2 class="tx-title"><em>E</em>quipo <span class="line2">docente</span></h2>
 						<div class="mob-hr">
 							<div class="line">
 								<span class="line-closer l"></span><span class="line-closer r"></span>
@@ -183,22 +179,15 @@
 					<div class="sec-bd">
 						<span class="line-closer tl"></span>
 						<span class="line-closer bl"></span>
-						<p class="mt">Este curso va dirigido a cualquier interesado en planificar y gestionar y dirigir programas de educación mediados por las NTIC’s, tanto en el mundo institucional (universidades y centros educativos públicos o privados de cualquier nivel educativo) como del mundo empresarial (departamentos de formación, departamentos de recursos humanos, etc.).</p>
-						<div class="cp-infobox cp">
-							<div class="cp-hd">
-								<h3 class="box-title">El número de plazas está limitado a 100 alumnos.</h3>
-							</div><!-- .cp-hd -->
-							<div class="cp-bd">
-								<p class="mt">Todos los alumnos matriculados en este curso tendrán acceso gratuito a un curso Online <a class="lnk" href="#" title="Tell Me More">Tell Me More</a> en el idioma que elijan. Tell me More ha sido galardonado como solución Blended 2007, conquistando el «World of learning Award»</p>
-							</div><!-- .cp-bd -->
-						</div><!-- .cp-infobox -->
+						[EQUIPO DOCENTE]
 					</div><!-- .sec-bd -->
-				</div><!-- .md-section.destinatarios -->
+					<div class="sec-ft"><span class="ft-bullets"></span></div>
+				</div><!-- .md-section.edocente -->
 
 				<!-- PROGRAMA -->
 				<div class="md-section md sec-odd programa cf" id="programa">
 					<div class="sec-hd">
-						<h2 class="tx-title"><em>O</em>bjetivos</h2>
+						<h2 class="tx-title"><em>P</em>rograma</h2>
 						<div class="mob-hr">
 							<div class="line">
 								<span class="line-closer l"></span><span class="line-closer r"></span>
@@ -209,17 +198,15 @@
 					<div class="sec-bd">
 						<span class="line-closer tr"></span>
 						<span class="line-closer br"></span>
-						<p class="mt">La innovación de las tecnológicas digitales de las últimas décadas ha tenido un enorme impacto en las posibilidades del aprendizaje en entornos distribuidos. La NTICs nos permiten. hoy día. tener interacciones en tiempo real con niveles de fidelidad similares a aquellos propios de entornos no virtuales. Hay. además. un interés creciente en las interacciones asistidas por ordenador: trabajos cooperativos; comunidades virtuales; mensajería instantánea; blogs. etc,</p>
-						<p class="mt">Aunque resulta imposible saber con certeza lo que deparara el futuro en esta nueva sociedad cambiante. todo parece indicar que la tendencia son los sistemas de aprendizaje mixtos: presenciales y a distancia (Blended learning o. simplemente. b-leamlngy Así. es posible que lo que hoy se denomina b-Iearning pueda llegar a ser denominado simplemente aprendizaje. El b-Ieamlng está aquí para quedarse. La razón más poderosa es su gran eficacia en la adquisición de estrategias y competencias por parte de quien aprende.</p>
-						<q class="mq">Nuestro trabajo consiste en formar expertos en la creación. gestión. diseño y dirección de proyectos de Educación a Distancia en la modalidad de learning y e-Iearning, tanto en instituciones educativas como en empresas”</q>
+						[PROGRAMA]
 					</div><!-- .sec-bd -->
 					<div class="sec-ft"><span class="ft-bullets"></span></div>
-				</div><!-- .md-section.titulacion -->
+				</div><!-- .md-section.programa -->
 
 				<!-- INCRIPCIÓN -->
 				<div class="md-section md sec-even inscripcion cf" id="inscripcion">
 					<div class="sec-hd">
-						<h2 class="tx-title"><em>D</em>estinatarios</h2>
+						<h2 class="tx-title"><em>I</em>nscripción</h2>
 						<div class="mob-hr">
 							<div class="line">
 								<span class="line-closer l"></span><span class="line-closer r"></span>
@@ -230,17 +217,9 @@
 					<div class="sec-bd">
 						<span class="line-closer tl"></span>
 						<span class="line-closer bl"></span>
-						<p class="mt">Este curso va dirigido a cualquier interesado en planificar y gestionar y dirigir programas de educación mediados por las NTIC’s, tanto en el mundo institucional (universidades y centros educativos públicos o privados de cualquier nivel educativo) como del mundo empresarial (departamentos de formación, departamentos de recursos humanos, etc.).</p>
-						<div class="cp-infobox cp">
-							<div class="cp-hd">
-								<h3 class="box-title">El número de plazas está limitado a 100 alumnos.</h3>
-							</div><!-- .cp-hd -->
-							<div class="cp-bd">
-								<p class="mt">Todos los alumnos matriculados en este curso tendrán acceso gratuito a un curso Online <a class="lnk" href="#" title="Tell Me More">Tell Me More</a> en el idioma que elijan. Tell me More ha sido galardonado como solución Blended 2007, conquistando el «World of learning Award»</p>
-							</div><!-- .cp-bd -->
-						</div><!-- .cp-infobox -->
+						[INSCRIPCIÓN]
 					</div><!-- .sec-bd -->
-				</div><!-- .md-section.destinatarios -->
+				</div><!-- .md-section.inscripcion -->
 
 			</div><!-- .rg-bd -->
 

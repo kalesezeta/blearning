@@ -4,17 +4,8 @@
 
 		BL.siteContentMargin();
 		BL.tweetsDisplayer();
-
-
-		jQuery('.lst-navbar').onePageNav({
-			begin: function() {
-				console.log('start');
-			},
-			end: function() {
-				console.log('stop');
-			},
-			scrollOffset: 100
-		});
+		jQuery.scrollTo(0);
+		BL.navigationSetup();
 
 	});
 
