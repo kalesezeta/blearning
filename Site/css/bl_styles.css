@@ -634,8 +634,8 @@ body #navbar {
 				-moz-text-shadow:1px 1px 0 #002e2e;
 				-o-text-shadow:1px 1px 0 #002e2e;
 		}
-		#contactForm input.text {width:274px; height:28px; padding:0 5px;}
-		#contactForm textarea {width:274px; height:166px; padding:7px 5px;}
+		#contactForm input.text {width:277px; height:28px; padding:0 5px;}
+		#contactForm textarea {width:277px; height:166px; padding:7px 5px; resize:none;}
 		#contactForm .btn {height:28px; padding:0 10px; cursor:pointer;}
 
 		/* validation errors */
