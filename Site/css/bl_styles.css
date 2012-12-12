@@ -130,20 +130,12 @@ body #navbar {
 	}
 
 	/* .cmb-navbar */
-	#navbar .cmb-navbar {
-		display:none; visibility:hidden;
-		width:175px; padding:3px;
-		font-size:18px; text-align:center;
-		background-color:#006666; color:#fff;
-		border:1px solid #006666; border-radius:3px;
-		box-shadow:0 0 5px #003333 inset;
-			-webkit-box-shadow:0 0 5px #003333 inset;
-			-moz-box-shadow:0 0 5px #003333 inset;
-			-o-box-shadow:0 0 5px #003333 inset;
-		text-shadow:1px 1px 0 #003333;
-			-webkit-text-shadow:1px 1px 0 #003333;
-			-moz-text-shadow:1px 1px 0 #003333;
-			-o-text-shadow:1px 1px 0 #003333;
+	#navbar .menu_btn {display:none; padding-right:10px;}
+	#navbar .menu_btn .ico {
+		display:block; padding:10px 0;
+		width:24px; height:18px;
+		background:transparent url(../images/spr-commons_hq.png) -523px -53px  no-repeat;
+		background-size:750px 375px;
 	}
 
 
@@ -677,7 +669,7 @@ body #navbar {
 
 	#navbar #wrp-navbar {padding:9px 0 8px 0;}
 	#navbar .lst-navbar .lst-item {display:none; visibility:hidden;}
-	#navbar .cmb-navbar {display:inline-block; visibility:visible;}
+	#navbar .menu_btn {display:block; visibility:visible;}
 
 
 	/** 
