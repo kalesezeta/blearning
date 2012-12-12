@@ -51,14 +51,9 @@
 					<span class="lst-item"><a title="Inscripción" href="#inscripcion">Inscripción</a></span>
 				</p><!-- .lst-navbar -->
 
-				<select name="cmb-navbar" class="cmb-navbar">
-			        <option value="#objetivos" selected="selected">Objetivos</option>
-			        <option value="#destinatarios">Destinatarios</option>
-			        <option value="#titulacion">Titulación</option>
-			        <option value="#edocente">Equipo docente</option>
-			        <option value="#programas">Programa</option>
-			        <option value="#inscripcion">Inscripción</option>
-		    	</select><!-- .cmb-navbar -->
+				<div class="cp-btn_line menu_btn tx-rt">
+					<a href="#" class="btn sk-bt2"><span class="ico"></span></a>
+				</div><!-- .cp-btn_line.navmenu -->
 
 			</div><!-- .wrp-navbar -->
 
