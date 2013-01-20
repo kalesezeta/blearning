@@ -6,6 +6,7 @@
 		BL.tweetsDisplayer();
 		jQuery.scrollTo(0);
 		BL.navigationSetup();
+		BL.professorateFunctions();
 
 	});
 

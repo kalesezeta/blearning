@@ -129,13 +129,51 @@ body #navbar {
 		text-decoration:none; color:#fff;
 	}
 
-	/* .cmb-navbar */
-	#navbar .menu_btn {display:none; padding-right:10px;}
+	/* .mob-navbar */
+	#navbar .mob-navbar {display:none;}
+	#navbar .menu_btn {padding-right:10px;}
+	#navbar .menu_btn .sk-bt2.active {
+		border:1px solid #001616;
+		box-shadow:0 0 2px #001616 inset;
+			-webkit-box-shadow:0 0 2px #001616 inset;
+			-moz-box-shadow:0 0 2px #001616 inset;
+			-o-box-shadow:0 0 2px #001616 inset;
+	}
 	#navbar .menu_btn .ico {
 		display:block; padding:10px 0;
 		width:24px; height:18px;
 		background:transparent url(../images/spr-commons_hq.png) -523px -53px  no-repeat;
 		background-size:750px 375px;
+	}
+	#navbar .mob-navbar .lst-mob-navbar {display:none; margin-bottom:10px;}
+	#navbar .mob-navbar .lst-item {
+		margin:0 10px;
+		font-size:25px; color:#fff;
+		border-top:1px dotted #004040; border-bottom:1px dotted #001515;
+	}
+	#navbar .mob-navbar .lst-item:first-child,
+	#navbar .mob-navbar .lst-item.first-item {border-top:none;}
+	#navbar .mob-navbar .lst-item:last-child,
+	#navbar .mob-navbar .lst-item.last-item {border-bottom:none;}
+	#navbar .mob-navbar .lst-item a {
+		display:block; padding:10px 0;
+		color:#e5e5e5; text-decoration:none; outline:0;
+		text-shadow:-1px -1px 0 #001616;
+			-webkit-text-shadow:-1px -1px 0 #001616;
+			-moz-text-shadow:-1px -1px 0 #001616;
+			-o-text-shadow:-1px -1px 0 #001616;
+		transition:all 0.25s ease-in-out;
+			-webkit-transition:all 0.25s ease-in-out;
+			-moz-transition:all 0.25s ease-in-out;
+			-o-transition:all 0.25s ease-in-out;
+	}
+	#navbar .mob-navbar .lst-item a:hover {
+		color:#fff;
+		text-shadow:0 0 10px #fff;
+			-webkit-text-shadow:0 0 10px #fff;
+			-moz-text-shadow:0 0 10px #fff;
+			-o-text-shadow:0 0 10px #fff;
+		text-decoration:none; color:#fff;
 	}
 
 
@@ -431,7 +469,7 @@ body #navbar {
 	.md-section .sec-bd .mq {
 		display:block; margin:0 10px; padding-left:50px;
 		font:16px/120% 'MidietSansItalicLight', Helvetica, sans-serif;
-		color:#999;
+		color:#777;
 		background:transparent url(../images/bg-quotes.png) 0 0 no-repeat;
 	}
 	.md-section .sec-ft {
@@ -488,11 +526,165 @@ body #navbar {
 	.edocente .sec-hd         {margin-top:-18px; font:41px/120% 'MidietSansLight', Helvetica, sans-serif;}
 	.edocente .sec-hd .tx-title {margin-left:-95px;}
 	.edocente .sec-hd em      {font-size:70px; color:#a4cc00;}
-	.edocente .sec-hd .line2  {display:block; margin-left:168px;}
+	.edocente .sec-hd .line2  {display:block; margin-left:168px; margin-top:-8px}
 	.programa .sec-hd         {font:45px/120% 'MidietSansLight', Helvetica, sans-serif;}
 	.programa .sec-hd em      {font-size:75px; color:#a4cc00;}
 	.inscripcion .sec-hd      {font:45px/120% 'MidietSansLight', Helvetica, sans-serif;}
 	.inscripcion .sec-hd em   {font-size:75px; color:#a4cc00;}
+
+	/* content titles */
+	.cnt-tit {margin-left:10px; font:15px/120%'MidietSansLight', Helvetica, sans-serif; color:#004444;}
+	.cnt-tit.sz1 {font-size:23px;}
+	.cnt-tit.sz2 {font-size:18px; margin-bottom:3px;}
+
+	/* text info */
+	.tx-info {display:block; margin:0 0 20px 10px; font-size:12px; color:#777;}
+
+
+	/** 
+	 * ----------------------------------------------
+	 *  @subsection: TITULACIÓN MODULE
+	 * ----------------------------------------------
+	 **/
+
+	.md-section.titulacion {}
+	.md-section.titulacion .mq {margin-bottom:20px;}
+	.md-section.titulacion .cnt-tit.sz1 em {color:#a4cc00;}
+	.md-section.titulacion .cnt-tit.sz2 em {font-size:13px; color:#ff6633;}	
+	.md-section.titulacion .legend {margin-bottom:0; padding-top:5px; border-top:1px solid #ddd;}
+	.md-section.titulacion .legend em {font-size:13px; font-weight:bold; color:#ff6633;}
+
+
+	/** 
+	 * ----------------------------------------------
+	 *  @subsection: EQUIPO DOCENTE
+	 * ----------------------------------------------
+	 **/
+
+	.md-section.edocente {}
+	.md-section.edocente .grp-professorate .pro-item {
+		display:block; margin:10px 10px 10px 20px; width:128px; height:128px;
+		border:1px solid #e0e0e0;
+		overflow:hidden;
+		border-radius:65px;
+			-webkit-border-radius:65px;
+			-moz-border-radius:65px;
+			-o-border-radius:65px;
+		transition:all 0.1s ease-in;
+			-webkit-transition:all 0.1s ease-in;
+			-moz-transition:all 0.1s ease-in;
+			-o-transition:all 0.1s ease-in;
+	}
+	.md-section.edocente .grp-professorate .pro-item img {
+		transition:opacity 0.2s ease-in;
+			-webkit-transition:opacity 0.2s ease-in;
+			-moz-transition:opacity 0.2s ease-in;
+			-o-transition:opacity 0.2s ease-in;
+	}
+	.md-section.edocente .grp-professorate .pro-item:hover {
+		margin-top:8px; margin-bottom:12px;
+		border-color:#cfcfcf;
+		box-shadow:0 0 3px #ddd;
+			-webkit-shadow:0 0 3px #ddd;
+			-moz-shadow:0 0 3px #ddd;
+			-o-shadow:0 0 3px #ddd;
+	}
+	.md-section.edocente .grp-professorate .pro-item:hover img {
+		opacity:0.9;
+			-webkit-opacity:0.9;
+			-moz-opacity:0.9;
+			-o-opacity:0.9;
+	}
+	.md-section.edocente .grp-professorate .pro-item.first-item {margin-left:10px;}
+	.md-section.edocente .grp-professorate .pro-item em {
+		display:block; width:120px; height:120px;
+		border:4px solid #fff;
+		overflow:hidden;
+		border-radius:65px;
+			-webkit-border-radius:65px;
+			-moz-border-radius:65px;
+			-o-border-radius:65px;
+	}
+	.md-section.edocente .grp-professorate .pro-name {display:none; visibility:hidden;}
+
+	/* proffesor content info */
+	.wrp-prof-info {display:none;}
+	.prof-cnt_info {
+		padding:10px; width:600px; height:500px;
+		background:#fff;
+		border-radius:5px;
+			-webkit-radius:5px;
+			-moz-radius:5px;
+			-o-radius:5px;
+		box-shadow:0 0 5px #ccc;
+			-webkit-shadow:0 0 5px #ccc;
+			-moz-shadow:0 0 5px #ccc;
+			-o-shadow:0 0 5px #ccc;
+	}
+	.prof-cnt_info .prof-tit {
+		display:inline-block; margin:10px 0 0 20px; padding:0 10px;
+		font:23px/120%'MidietSansLight', Helvetica, sans-serif; color:#004444;
+		background:#fff;
+	}
+	.prof-cnt_info .tit-line {display:block; margin:-15px 0 30px 0; border-bottom:1px solid #009999;}
+	.prof-cnt_info .mg {margin-right:10px;}
+	.prof-cnt_info .mt {
+		padding:0 10px 0 10px; border-left:1px solid #ccc;
+		width:389px; height:435px; overflow:auto;
+	}
+	.prof-cnt_info .mt p {margin-bottom:10px; font-size:13px; color:#333; line-height:130%;}
+
+
+	/** 
+	 * ----------------------------------------------
+	 *  @subsection: EQUIPO DOCENTE
+	 * ----------------------------------------------
+	 **/
+
+	.md-section.programa {}
+	.md-section.programa .mt strong {font-weight:bold;}
+
+
+	/** 
+	 * ----------------------------------------------
+	 *  @subsection: INSCRIPCIÓN
+	 * ----------------------------------------------
+	 **/
+
+	.md-section.inscripcion {}
+	.md-section.inscripcion .enrollment {}
+	.md-section.inscripcion .cp-infobox .cp-bd {width:70%; margin-bottom:10px;}
+	.md-section.inscripcion .cp-infobox .cp-btn_line,
+	.md-section.inscripcion .cp-infobox .rollment-price {display:inline-block;}
+	.md-section.inscripcion .cp-infobox .cp-btn_line {margin-right:10px;}
+	.md-section.inscripcion .cp-infobox .rollment-price {font-size:14px; color:#333;}
+	.md-section.inscripcion .cp-infobox .cp-ft {
+		margin:0 auto 20px auto; width:70%;
+		font-size:11px; color:#666; text-align:center;
+	}
+	.md-section.inscripcion .cp-infobox strong {font-weight:bold;}
+	.md-section.inscripcion .legend {margin-bottom:0; padding-top:5px; border-top:1px solid #ddd;}
+
+	/** 
+	 * ----------------------------------------------
+	 *  @subsection: SPONSORS MODULE
+	 * ----------------------------------------------
+	 **/
+
+	.md-sponsors {margin-bottom:60px;}
+	.md-sponsors .hd,
+	.md-sponsors .bd {float:left;}
+	.md-sponsors .hd {width:320px;}
+	.md-sponsors .bd {width:630px;}
+	.md-sponsors .sp-tit {margin-bottom:3px; padding-left:20px; font-size:13px; color:#666;}
+	.md-sponsors .hd .logos-cnt,
+	.md-sponsors .bd .logos-cnt {
+		height:55px; padding:10px 0;
+		border-top:1px solid #ddd; border-bottom:1px solid #ddd;
+		background:#F5F5F5;
+	}
+	.md-sponsors .bd .wrp-logos {height:55px; border-left:1px solid #ddd;}
+	.md-sponsors img {display:inline-block; margin-left:20px;}
 
 
 	/** 
@@ -669,7 +861,7 @@ body #navbar {
 
 	#navbar #wrp-navbar {padding:9px 0 8px 0;}
 	#navbar .lst-navbar .lst-item {display:none; visibility:hidden;}
-	#navbar .menu_btn {display:block; visibility:visible;}
+	#navbar .mob-navbar {display:block; visibility:visible;}
 
 
 	/** 
@@ -760,6 +952,7 @@ body #navbar {
 	 * ----------------------------------------------
 	 **/
 
+	.md-section .sec-hd .mg {display:none;}
 	.md-section .sec-ft {
 		width:auto; height:15px; margin:46px 10px 0 10px; text-align:center;
 		background:transparent url(../images/bg-dotted_line2_hq.png) 0 50% repeat-x;
@@ -785,7 +978,48 @@ body #navbar {
 
 	/** 
 	 * ----------------------------------------------
-	 *  @subsection: FOOTER MODULE
+	 *  @subsection: EQUIPO DOCENTE MODULE MODIFIERS
+	 * ----------------------------------------------
+	 **/
+
+	.md-section.edocente .grp-professorate {margin:0 auto; width:320px;}
+	.md-section.edocente .grp-professorate .pro-item,
+	.md-section.edocente .grp-professorate .pro-item.first-item {margin-left:15px;}
+	.prof-cnt_info {width:325px; height:410px;}
+	.prof-cnt_info .mg {display:none; visibility:hidden;}
+	.prof-cnt_info .mt {width:auto; height:350px; border:0;}
+
+
+	/** 
+	 * ----------------------------------------------
+	 *  @subsection: INSCRIPCIÓN MODULE MODIFIERS
+	 * ----------------------------------------------
+	 **/
+
+	.md-section.inscripcion .cp-infobox .box-title {font-size:13px;}
+	.md-section.inscripcion .cp-infobox .cp-btn_line {margin-right:0; margin-bottom:10px;}
+
+
+	/** 
+	 * ----------------------------------------------
+	 *  @subsection: SPONSORS MODULE MODIFIERS
+	 * ----------------------------------------------
+	 **/
+
+	.md-sponsors {margin-bottom:60px;}
+	.md-sponsors .hd,
+	.md-sponsors .bd {float:none; margin:0 10px;}
+	.md-sponsors .hd {width:auto; margin-bottom:10px;}
+	.md-sponsors .bd {width:auto;}
+	.md-sponsors .hd .logos-cnt,
+	.md-sponsors .bd .logos-cnt {height:auto; text-align:center;}
+	.md-sponsors .bd .wrp-logos {height:auto; border-left:none;}
+	.md-sponsors img {display:inline-block; margin:0 10px;}
+
+
+	/** 
+	 * ----------------------------------------------
+	 *  @subsection: FOOTER MODULE MODIFIERS
 	 * ----------------------------------------------
 	 **/
 

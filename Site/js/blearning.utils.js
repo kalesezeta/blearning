@@ -44,7 +44,7 @@ BL.siteContentMargin = function () {
 
 BL.navigationSetup = function () {
 
-	var page = jQuery('html, body');
+	var page = jQuery("html, body");
 
 	jQuery(".lst-navbar a").each(function() {
 
@@ -54,9 +54,86 @@ BL.navigationSetup = function () {
 			var target = _target.attr("href");
 			var targetPos = jQuery(target).offset().top;
 
-			page.stop().scrollTo(targetPos + -100, 500, {easing:'easeOutQuart'});
+			page.stop().scrollTo(targetPos + -100, 500, {easing:"easeOutQuart"});
 			e.preventDefault();
 
+		});
+
+	});
+
+	jQuery(".menu_btn a").click	(function(e) {
+
+		jQuery(".lst-mob-navbar").slideToggle(500, "easeOutQuart");
+		if (jQuery(this).hasClass("active")) {
+			jQuery(this).removeClass("active");
+		}
+		else {
+			jQuery(this).addClass("active");
+		}
+		e.preventDefault();
+
+	});
+
+	jQuery(".lst-mob-navbar a").each(function() {
+
+		jQuery(this).click(function(e) {
+
+			var _target = jQuery(this);
+			var target = _target.attr("href");
+			var targetPos = jQuery(target).offset().top;
+
+			page.stop().scrollTo(targetPos + -100, 500, {easing:"easeOutQuart"});
+			jQuery(".lst-mob-navbar").slideToggle(500, "easeOutQuart", function(){
+				jQuery(".menu_btn a").removeClass("active");
+			});
+			e.preventDefault();
+
+		});
+
+	});
+
+};
+
+
+
+/**
+ * Professorate functions
+ */
+
+
+BL.professorateFunctions = function () {
+
+	jQuery('.pro-item').each(function(i, el){
+
+		jQuery(this).colorbox({inline:true, fixed:true});
+
+		jQuery(this).qtip({
+			content: jQuery(this).attr("pro-name"),
+			style: {
+				classes: 'ui-tooltip-bl',
+				tip: {
+					corner: true,
+					width: 8,
+					height: 8
+				}
+			},
+			position: {
+				target: 'mouse',
+				viewport: jQuery('.grp-professorate'),
+				adjust: {
+					x: 15, y: 15
+				}
+			},
+		    show: {
+		        effect: function(offset) {
+		            jQuery(this).fadeIn(150);
+		        }
+		    },
+		    hide: {
+		        effect: function(offset) {
+		            jQuery(this).fadeOut(150);
+		        }
+		    }
 		});
 
 	});
@@ -73,15 +150,18 @@ BL.tweetsDisplayer = function () {
 
 	// Tweets display
 	jQuery(function() {
+
 		jQuery("#latestTweets").tweet({
 			username: "blearningUNED",
 			count: 4,
 			loading_text: "Cargando Tweets..."
 		});
+
 	});
 
 	// Tweets truncator
 	var tweetsTruncator = function(){
+
 		if (jQuery(".tweet_text").length != 0) {
 			jQuery(".tweet_text").each(function() {
 				jQuery(this).trunk8({
@@ -92,6 +172,7 @@ BL.tweetsDisplayer = function () {
 				clearInterval(tweetsTrunk8Int);
 			})
 		}
+
 	};
 
 	var tweetsTrunk8Int = setInterval(tweetsTruncator, 250);
