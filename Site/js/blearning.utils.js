@@ -105,6 +105,12 @@ BL.professorateFunctions = function () {
 
 	jQuery('.pro-item').each(function(i, el){
 
+		var jObj = jQuery(el);
+
+		jObj.click(function(e){
+			console.log(e);
+		})
+
 		jQuery(this).colorbox({inline:true, fixed:true});
 
 		jQuery(this).qtip({
