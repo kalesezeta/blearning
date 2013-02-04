@@ -49,9 +49,9 @@
 				<p class="lst-navbar">
 					<span class="lst-item first-item"><a title="Objetivos" href="#objetivos">Objetivos</a></span>
 					<span class="lst-item"><a title="Destinatarios" href="#destinatarios">Destinatarios</a></span>
-					<span class="lst-item"><a title="Titulación" href="#titulacion">Titulación</a></span>
+					<span class="lst-item"><a title="Titulaciones" href="#titulaciones">Titulaciones</a></span>
 					<span class="lst-item"><a title="Equipo docente" href="#edocente">Equipo docente</a></span>
-					<span class="lst-item"><a title="Programa" href="#programa">Programa</a></span>
+					<span class="lst-item"><a title="Programas" href="#programas">Programas</a></span>
 					<span class="lst-item"><a title="Inscripción" href="#inscripcion">Inscripción</a></span>
 				</p><!-- .lst-navbar -->
 
@@ -104,8 +104,9 @@
 			<div id="rg-bd">
 
 				<div class="md-st-title md">
-					<h1>Curso de Experto 5ª edición <em>(2012/2013)</em></h1>
-					<p>Diseño, gestión y dirección de proyectos de b-learning</p>
+					<h1>Cursos de Experto 6ª edición <em>(2013/2014)</em></h1>
+					<p class="first-item">Experto Universitario en Diseño, gestión y dirección de proyectos de b-learning</p>
+					<p>Experto Profesional en Diseño y gestión de cursos de e-learning y b-learning</p>
 				</div><!-- .md-st-title -->
 
 				<!-- OBJETIVOS -->
@@ -117,14 +118,14 @@
 								<span class="line-closer l"></span><span class="line-closer r"></span>
 							</div><!-- .line -->
 						</div><!-- .mob-hr -->
-						<div class="mg" style="padding-top:20px;"><img src="images/sections/sec-objetivos.png" alt="Objetivos" /></div><!-- .mg -->
+						<div class="mg" style="padding-top:40px;"><img src="images/sections/sec-objetivos.png" alt="Objetivos" /></div><!-- .mg -->
 					</div><!-- .sec-hd -->
 					<div class="sec-bd">
 						<span class="line-closer tr"></span>
 						<span class="line-closer br"></span>
-						<p class="mt">La innovación de las tecnológicas digitales de las últimas décadas ha tenido un enorme impacto en las posibilidades del aprendizaje en entornos distribuidos. La NTICs nos permiten. hoy día. tener interacciones en tiempo real con niveles de fidelidad similares a aquellos propios de entornos no virtuales. Hay. además. un interés creciente en las interacciones asistidas por ordenador: trabajos cooperativos; comunidades virtuales; mensajería instantánea; blogs. etc,</p>
-						<p class="mt">Aunque resulta imposible saber con certeza lo que deparara el futuro en esta nueva sociedad cambiante. todo parece indicar que la tendencia son los sistemas de aprendizaje mixtos: presenciales y a distancia (Blended learning o. simplemente. b-leamlngy Así. es posible que lo que hoy se denomina b-Iearning pueda llegar a ser denominado simplemente aprendizaje. El b-Ieamlng está aquí para quedarse. La razón más poderosa es su gran eficacia en la adquisición de estrategias y competencias por parte de quien aprende.</p>
-						<q class="mq">Nuestro trabajo consiste en formar expertos en la creación. gestión. diseño y dirección de proyectos de Educación a Distancia en la modalidad de learning y e-Iearning, tanto en instituciones educativas como en empresas.”</q>
+						<p class="mt">La innovación de las tecnológicas digitales de las últimas décadas ha tenido un enorme impacto en las posibilidades del aprendizaje en entornos distribuidos. La NTICs nos permiten, hoy día, tener interacciones en tiempo real con niveles de fidelidad similares a aquellos propios de entornos no virtuales. Hay, además, un interés creciente en las interacciones asistidas por ordenador: trabajos cooperativos; comunidades virtuales; mensajería instantánea; blogs, etc.</p>
+						<p class="mt">Aunque resulta imposible saber con certeza lo que deparará el futuro en esta nueva sociedad cambiante, todo parece indicar que la tendencia son los sistemas de aprendizaje mixtos: presenciales y a distancia (Blended learning o, simplemente, b-learning). Así, es posible que lo que hoy se denomina b-learning pueda llegar a ser denominado simplemente aprendizaje. El b-learning está aquí para quedarse. La razón más poderosa es su gran eficacia en la adquisición de estrategias y competencias por parte de quien aprende.</p>
+						<q class="mq">Nuestro trabajo consiste en formar expertos en la creación, gestión, diseño y dirección de proyectos de Educación a Distancia en la modalidad de b-learning y e-learning, así como expertos en el diseño y gestión de cursos de e-learning y de b-learning, tanto en instituciones educativas como en empresas.”</q>
 					</div><!-- .sec-bd -->
 					<div class="sec-ft"><span class="ft-bullets"></span></div>
 				</div><!-- .md-section.objetivos -->
@@ -143,13 +144,13 @@
 					<div class="sec-bd">
 						<span class="line-closer tl"></span>
 						<span class="line-closer bl"></span>
-						<p class="mt">Este curso va dirigido a cualquier interesado en planificar y gestionar y dirigir programas de educación mediados por las NTIC’s, tanto en el mundo institucional (universidades y centros educativos públicos o privados de cualquier nivel educativo) como del mundo empresarial (departamentos de formación, departamentos de recursos humanos, etc.).</p>
+						<p class="mt">Estos cursos van dirigidos a cualquier interesado en planificar, gestionar y dirigir programas de educación mediados por las NTIC’s, así como a quienes deseen formarse en el diseño y gestión de cursos virtuales, tanto en el mundo institucional (universidades y centros educativos públicos o privados de cualquier nivel educativo) como del mundo empresarial (departamentos de formación, departamentos de recursos humanos, etc.).</p>
 						<div class="cp-infobox cp">
 							<div class="cp-hd">
-								<h3 class="box-title">El número de plazas está limitado a 100 alumnos.</h3>
+								<h3 class="box-title">El número de plazas en cada curso está limitado a 100 alumnos.</h3>
 							</div><!-- .cp-hd -->
 							<div class="cp-bd">
-								<p class="mt">Todos los alumnos matriculados en este curso tendrán acceso gratuito a un curso Online <a class="lnk" href="#" title="Tell Me More">Tell Me More</a> en el idioma que elijan. Tell me More ha sido galardonado como solución Blended 2007, conquistando el «World of learning Award»</p>
+								<p class="mt">Los alumnos matriculados en alguno de estos cursos tendrán acceso gratuito a un curso Online <a class="lnk" href="http://www.tellmemore.com/home.aspx#&panel1-1" target="_blank" title="Tell Me More">Tell Me More</a> en el idioma que elijan. Tell me More ha sido galardonado como solución Blended 2007, conquistando el «World of learning Award»</p>
 							</div><!-- .cp-bd -->
 						</div><!-- .cp-infobox -->
 					</div><!-- .sec-bd -->
@@ -159,44 +160,46 @@
 				<div class="md-sponsors md cf">
 					<div class="hd">
 						<h2 class="sp-tit">Auspiciado por:</h2>
-						<div class="logos-cnt"><img src="images/sponsors/sp-cued.png" width="264px" height="55px" alt="CUED" title="Cátedra Unesco de Educación a Distancia" /></div>
+						<div class="logos-cnt"><a href="http://www.uned.es/catedraunesco-ead/" target="_blank"><img src="images/sponsors/sp-cued.png" width="264px" height="55px" alt="CUED" title="Cátedra Unesco de Educación a Distancia" /></a></div>
 					</div><!-- .hd -->
 					<div class="bd">
 						<h2 class="sp-tit">Patrocinado por:</h2>
 						<div class="logos-cnt">
 							<div class="wrp-logos">
-								<img src="images/sponsors/sp-microsoft.png" width="145px" height="55px" alt="Microsoft" title="Microsoft" />
-								<img src="images/sponsors/sp-escrow.png" width="85px" height="55px" alt="Escrow" title="Escrow" />
-								<img src="images/sponsors/sp-america.png" width="65px" height="55px" alt="América Learning & Media" title="América Learning & Media" />
-								<img src="images/sponsors/sp-tellmemore.png" width="130px" height="55px" alt="Tell Me More" title="Tell Me More" />
-								<img src="images/sponsors/sp-xerta.png" width="57px" height="55px" alt="Xerta consultores" title="Xerta consultores" />
+								<a href="http://www.microsoft.com/es-es/default.aspx" target="_blank"><img src="images/sponsors/sp-microsoft.png" width="145px" height="55px" alt="Microsoft" title="Microsoft" /></a>
+								<a href="http://www.agenciaescrow.com/" target="_blank"><img src="images/sponsors/sp-escrow.png" width="85px" height="55px" alt="Escrow" title="Escrow" /></a>
+								<a href="http://www.americalearningmedia.com/" target="_blank"><img src="images/sponsors/sp-america.png" width="65px" height="55px" alt="América Learning & Media" title="América Learning & Media" /></a>
+								<a href="http://www.tellmemore.com/home.aspx#&panel1-1" target="_blank"><img src="images/sponsors/sp-tellmemore.png" width="130px" height="55px" alt="Tell Me More" title="Tell Me More" /></a>
+								<a href="http://www.xertaconsultores.com/" target="_blank"><img src="images/sponsors/sp-xerta.png" width="57px" height="55px" alt="Xerta consultores" title="Xerta consultores" /></a>
 							</div><!-- .wrp-logos -->
 						</div><!-- .logos-cnt -->
 					</div><!-- .bd -->
 				</div><!-- .md-sponsors -->
 
 				<!-- TITULACIÓN -->
-				<div class="md-section md sec-odd titulacion cf" id="titulacion">
+				<div class="md-section md sec-odd titulaciones cf" id="titulaciones">
 					<div class="sec-hd">
-						<h2 class="tx-title"><em>T</em>itulación</h2>
+						<h2 class="tx-title"><em>T</em>itulaciones</h2>
 						<div class="mob-hr">
 							<div class="line">
 								<span class="line-closer l"></span><span class="line-closer r"></span>
 							</div><!-- .line -->
 						</div><!-- .mob-hr -->
-						<div class="mg" style="padding-top:20px;"><img src="images/sections/sec-titulacion.png" alt="Objetivos" /></div><!-- .mg -->
+						<div class="mg" style="padding-top:35px;"><img src="images/sections/sec-titulacion.png" alt="Objetivos" /></div><!-- .mg -->
 					</div><!-- .sec-hd -->
 					<div class="sec-bd">
 						<span class="line-closer tr"></span>
 						<span class="line-closer br"></span>
-						<h2 class="cnt-tit sz1">Experto <em>Profesional</em> o <em>Universitario</em></h2>
-						<h2 class="cnt-tit sz2">en Diseño, Gestión y Dirección de Proyectos en b-learning</h2>
+						<h2 class="cnt-tit sz1">Experto <em>Univeritario</em></h2>
+						<h3 class="cnt-tit sz2">en Diseño, gestión y dirección de proyectos de b-learning</h3>
+						<h2 class="cnt-tit sz1">Experto <em>Profesional</em></h2>
+						<h3 class="cnt-tit sz2">en Diseño y gestión de cursos de e-learning y b-learning</h3>
 						<small class="tx-info">Título expedido por la Universidad Nacional de Educación a Distancia</small>
-						<q class="mq">La superación del curso dará lugar a la obtención de una titulación, la cual dependerá del requisito mínimo de acceso que se debe consignar en la reserva de plaza y en la matrícula posteriormente.”</q>
-						<h2 class="cnt-tit sz2">Experto Profesional</h2>
-						<p class="mt">Quienes accedan al curso mediante esta modalidad, obtendrán el título de Experto Profesional en Diseño. Gestión y Dirección de Proyectos de b-learning por Ia Universidad Nacional de Educación a Distancia de España (UNED).</p>
-						<h2 class="cnt-tit sz2">Experto Universitario <em>*</em></h2>
-						<p class="mt">Se establece como requisito mínimo de acceso a los cursos de experto universitario estar en posesión de un título de graduado, diplomado, ingeniero técnico o arquitecto técnico. Excepcionalmente, podrán también acceder a cursos de experto universitario personas sin titulación universitaria. directamente relacionadas por su experiencia profesional con la especialidad del curso, siempre y cuando cumplan los requisitos legales para cursos estudios universitarios. La admisión en estos casos deberá ser solicitada por el interesado durante el periodo de matriculación. y autorizada por el Vicerrector con competencias en Ia materia, previa presentación de los justificantes oportunos. Quienes cumplan estos requisitos y accedan. de acuerdo con ellos, al cuso mediante esta modalidad obtendrán el título de Experto Universitario en Diseño. Gestión y Dirección de Proyectos de b-Ieaming por Ia Universidad Nacional de Educación a Distancia de España (UNED).</p>
+						<q class="mq">La superación de cada curso, cuya matriculación es independiente, dará lugar a la obtención de la titulación correspondiente. Cada curso comprende unos requisitos de acceso, que se deben tener en cuenta para la reserva de plaza y la posterior matrícula.”</q>
+						<h2 class="cnt-tit sz2">Experto Universitario</h2>
+						<p class="mt">Se establece como requisito mínimo de acceso a los cursos de experto universitario estar en posesión de un título de graduado, diplomado, ingeniero técnico o arquitecto técnico. Excepcionalmente, podrán también acceder a cursos de experto universitario personas sin titulación universitaria cuya experiencia profesional demostrada esté directamente relacionada con la especialidad del curso, siempre y cuando cumplan los requisitos legales para cursar estudios universitarios. La admisión en estos casos deberá ser solicitada por el interesado durante el periodo de matriculación, y autorizada por el Vicerrector con competencias en la materia, previa presentación de los justificantes oportunos. Quienes cumplan estos requisitos y accedan al cuso mediante esta modalidad obtendrán el título de Experto Universitario en Diseño, gestión y dirección de proyectos de b-learning por la Universidad Nacional de Educación a Distancia de España (UNED).</p>
+						<h2 class="cnt-tit sz2">Experto Profesional <em>*</em></h2>
+						<p class="mt">Quienes accedan al curso mediante esta modalidad, obtendrán el título de Experto Profesional en Diseño y gestión de cursos de e-learning y b-learning por la Universidad Nacional de Educación a Distancia de España (UNED).</p>
 						<small class="tx-info legend"><em>*</em> NO REQUIERE TITULACIÓN PREVIA PARA ACCEDER</small>
 					</div><!-- .sec-bd -->
 					<div class="sec-ft"><span class="ft-bullets"></span></div>
@@ -312,22 +315,88 @@
 				</div><!-- .md-section.edocente -->
 
 				<!-- PROGRAMA -->
-				<div class="md-section md sec-odd programa cf" id="programa">
+				<div class="md-section md sec-odd programas cf" id="programas">
 					<div class="sec-hd">
-						<h2 class="tx-title"><em>P</em>rograma</h2>
+						<h2 class="tx-title"><em>P</em>rogramas</h2>
 						<div class="mob-hr">
 							<div class="line">
 								<span class="line-closer l"></span><span class="line-closer r"></span>
 							</div><!-- .line -->
 						</div><!-- .mob-hr -->
-						<div class="mg"></div><!-- .mg -->
+						<div class="mg" style="padding-top:35px;"><img src="images/sections/sec-programa.png" alt="Objetivos" /></div><!-- .mg -->
 					</div><!-- .sec-hd -->
 					<div class="sec-bd">
 						<span class="line-closer tr"></span>
 						<span class="line-closer br"></span>
 						<h2 class="cnt-tit sz2">El curso está estructurado en seis módulos:</h2>
 						<div class="program-info mt">
-
+							<ul class="lst-program-mod">
+								<li class="lst-item">
+									<strong>Módulo 1: Fundamentos del b-learning (5 Créditos)</strong>
+									<ul class="lst-modinfo">
+										<li class="lst-subitem">El curso está estructurado en seis módulos:</li>
+										<li class="lst-subitem">Modelos pedagógicos e instruccionales</li>
+										<li class="lst-subitem">Metodología</li>
+										<li class="lst-subitem">Materiales</li>
+										<li class="lst-subitem">Agentes</li>
+										<li class="lst-subitem">Evaluación</li>
+										<li class="lst-subitem">El b-learning en el ámbito corporativo, académico y escolar</li>
+									</ul><!-- .lst-modinfo -->
+								</li><!-- .lst-item -->
+							</ul><!-- .lst-program-mod -->
+							<ul class="lst-program-mod">
+								<li class="lst-item">
+									<strong>Módulo 2: Aspectos técnicos en el b-learning (10 Créditos)</strong>
+									<ul class="lst-modinfo">
+										<li class="lst-subitem">Introducción al e-learning</li>
+										<li class="lst-subitem">Componentes del e-learning</li>
+										<li class="lst-subitem">Las Plataformas</li>
+										<li class="lst-subitem">Los Metadatos</li>
+										<li class="lst-subitem">Herramientas Web 2.0</li>
+									</ul><!-- .lst-modinfo -->
+								</li><!-- .lst-item -->
+							</ul><!-- .lst-program-mod -->
+							<ul class="lst-program-mod">
+								<li class="lst-item">
+									<strong>Módulo 3: Creación de cursos en línea y estrategias de enseñanza en b-learning (10 Créditos)</strong>
+									<ul class="lst-modinfo">
+										<li class="lst-subitem">Modelos de cursos virtuales.</li>
+										<li class="lst-subitem">Las fases de creación de un curso virtual y sus procesos.</li>
+										<li class="lst-subitem">Estrategias y Técnicas de la enseñanza en b-learning</li>
+									</ul><!-- .lst-modinfo -->
+								</li><!-- .lst-item -->
+							</ul><!-- .lst-program-mod -->
+							<ul class="lst-program-mod">
+								<li class="lst-item">
+									<strong>Módulo 4: Aspectos jurídicos, seguridad y derechos de autor en b-learning (4 Créditos)</strong>
+									<ul class="lst-modinfo">
+										<li class="lst-subitem">Propiedad Intelectual y Propiedad industrial</li>
+										<li class="lst-subitem">Protección de datos</li>
+										<li class="lst-subitem">Contratación</li>
+									</ul><!-- .lst-modinfo -->
+								</li><!-- .lst-item -->
+							</ul><!-- .lst-program-mod -->
+							<ul class="lst-program-mod">
+								<li class="lst-item">
+									<strong>Módulo 5: Evaluación y acreditación de la calidad de la formación (4 Créditos)</strong>
+									<ul class="lst-modinfo">
+										<li class="lst-subitem">La evaluación y la acreditación</li>
+										<li class="lst-subitem">Criterios, indicadores y estándares de calidad</li>
+										<li class="lst-subitem">Agencias de Acreditación y Procesos de Acreditación y Evaluación</li>
+									</ul><!-- .lst-modinfo -->
+								</li><!-- .lst-item -->
+							</ul><!-- .lst-program-mod -->
+							<ul class="lst-program-mod">
+								<li class="lst-item">
+									<strong>Módulo 6: Aspectos formales, organizacionales y sociales en el diseño, gestión y dirección de proyectos de b-learning. (4 Créditos)</strong>
+									<ul class="lst-modinfo">
+										<li class="lst-subitem">Modelos de organización y gestión de recursos humanos</li>
+										<li class="lst-subitem">El b-learning en el contexto laboral y organizacional</li>
+										<li class="lst-subitem">Implantación de proyectos de b-learning en las organizaciones</li>
+										<li class="lst-subitem">Buenas prácticas y tendencias del b-learning en el ámbito organizacional</li>
+									</ul><!-- .lst-modinfo -->
+								</li><!-- .lst-item -->
+							</ul><!-- .lst-program-mod -->
 						</div><!-- .program-info -->
 						<h2 class="cnt-tit sz2">Metodología</h2>
 						<p class="mt">El curso se impartirá siguiendo la metodología de la enseñanza a distancia mediada por las NTIC’s, propia de la UNED. Tanto la tutorización como la realización de actividades prácticas por parte de los alumnos se realizarán a través de una plataforma de formación Online, específica para este curso. El alumno dispondrá, además, de un material didáctico en formato CD-ROM, elaborado expresamente para este curso.</p>
