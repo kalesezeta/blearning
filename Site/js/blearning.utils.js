@@ -46,7 +46,7 @@ BL.navigationSetup = function () {
 
 	var page = jQuery("html, body");
 
-	jQuery(".lst-navbar a").each(function() {
+	jQuery(".lst-navbar a, .lst-social-links .lnk-contact a").each(function() {
 
 		jQuery(this).click(function(e) {
 
@@ -104,12 +104,6 @@ BL.navigationSetup = function () {
 BL.professorateFunctions = function () {
 
 	jQuery('.pro-item').each(function(i, el){
-
-		var jObj = jQuery(el);
-
-		jObj.click(function(e){
-			console.log(e);
-		})
 
 		jQuery(this).colorbox({inline:true, fixed:true});
 

@@ -62,9 +62,9 @@
 					<ul class="lst-mob-navbar">
 						<li class="lst-item first-item"><a title="Objetivos" href="#objetivos">Objetivos</a></li>
 						<li class="lst-item"><a title="Destinatarios" href="#destinatarios">Destinatarios</a></li>
-						<li class="lst-item"><a title="Titulación" href="#titulacion">Titulación</a></li>
+						<li class="lst-item"><a title="Titulaciones" href="#titulaciones">Titulaciones</a></li>
 						<li class="lst-item"><a title="Equipo docente" href="#edocente">Equipo docente</a></li>
-						<li class="lst-item"><a title="Programa" href="#programa">Programa</a></li>
+						<li class="lst-item"><a title="Programas" href="#programas">Programas</a></li>
 						<li class="lst-item last-item"><a title="Inscripción" href="#inscripcion">Inscripción</a></li>						
 					</ul><!-- .lst-mob-navbar -->
 				</div><!-- .mob-navbar -->
@@ -82,20 +82,20 @@
 				</h1><!-- .st-brand -->
 
 				<p class="organized-by">
-					<span class="org-title">Organizado por:</span>
-					<a class="org-uned" title="UNED"><em>UNED</em></a>
-					<a class="org-foundation" title="Fundación Uned"><em>Fundación Uned</em></a>
+					<span class="org-title">Organizados por:</span>
+					<a href="http://www.uned.es" class="org-uned" title="UNED" target="_blank"><em>UNED</em></a>
+					<a href="http://www.fundacion.uned.es" class="org-foundation" title="Fundación Uned" target="_blank"><em>Fundación Uned</em></a>
 				</p><!-- .org-by-->
 
 				<ul class="lst-social-links">
 					<li class="lst-item lnk-fb fl">
-						<a title="Facebook"><em>Facebook</em><span class="ico"></span><span class="stick"></span></a>
+						<a href="http://www.facebook.com/pages/Curso-de-b-learning-de-la-UNED/111111225576352" title="Facebook" target="_blank"><em>Facebook</em><span class="ico"></span><span class="stick"></span></a>
 					</li><!-- .lst-item -->
 					<li class="lst-item lnk-tw fl">
-						<a title="Twitter"><em>Twitter</em><span class="ico"></span><span class="stick"></span></a>
+						<a href="https://twitter.com/blearningUNED" title="Twitter" target="_blank"><em>Twitter</em><span class="ico"></span><span class="stick"></span></a>
 					</li><!-- .lst-item -->
 					<li class="lst-item lnk-contact fl">
-						<a title="Contacto"><em>Contacto</em><span class="ico"></span><span class="stick"></span></a>
+						<a href="#contacto" title="Contacto"><em>Contacto</em><span class="ico"></span><span class="stick"></span></a>
 					</li><!-- .lst-item -->
 				</ul><!-- .lst-social-links -->
 
@@ -194,7 +194,7 @@
 						<h3 class="cnt-tit sz2">en Diseño, gestión y dirección de proyectos de b-learning</h3>
 						<h2 class="cnt-tit sz1">Experto <em>Profesional</em></h2>
 						<h3 class="cnt-tit sz2">en Diseño y gestión de cursos de e-learning y b-learning</h3>
-						<small class="tx-info">Título expedido por la Universidad Nacional de Educación a Distancia</small>
+						<small class="tx-info">Títulos expedidos por la Universidad Nacional de Educación a Distancia</small>
 						<q class="mq">La superación de cada curso, cuya matriculación es independiente, dará lugar a la obtención de la titulación correspondiente. Cada curso comprende unos requisitos de acceso, que se deben tener en cuenta para la reserva de plaza y la posterior matrícula.”</q>
 						<h2 class="cnt-tit sz2">Experto Universitario</h2>
 						<p class="mt">Se establece como requisito mínimo de acceso a los cursos de experto universitario estar en posesión de un título de graduado, diplomado, ingeniero técnico o arquitecto técnico. Excepcionalmente, podrán también acceder a cursos de experto universitario personas sin titulación universitaria cuya experiencia profesional demostrada esté directamente relacionada con la especialidad del curso, siempre y cuando cumplan los requisitos legales para cursar estudios universitarios. La admisión en estos casos deberá ser solicitada por el interesado durante el periodo de matriculación, y autorizada por el Vicerrector con competencias en la materia, previa presentación de los justificantes oportunos. Quienes cumplan estos requisitos y accedan al cuso mediante esta modalidad obtendrán el título de Experto Universitario en Diseño, gestión y dirección de proyectos de b-learning por la Universidad Nacional de Educación a Distancia de España (UNED).</p>
@@ -223,10 +223,10 @@
 							<a href="#prof1-info" class="pro-item fl first-item" pro-name="José María Calés"><span class="pro-name">José María Calés</span><em><img src="images/professorate/jcales.png" width="120px" height="120px"></em></a>
 							<a href="#prof2-info" class="pro-item fl" pro-name="Georgina Cherta Laquente"><span class="pro-name">Georgina Cherta</span><em><img src="images/professorate/gcherta.png" width="120px" height="120px"></em></a>
 							<a href="#prof3-info" class="pro-item fl" pro-name="Ángel López Folgado"><span class="pro-name">Ángel López Folgado</span><em><img src="images/professorate/alopez.png" width="120px" height="120px"></em></a>
-							<a href="#prof4-info" class="pro-item fl" pro-name="Jesús Gómez Garzas"><span class="pro-name">Jesús Gómez Garzas</span><em><img src="images/professorate/jgomez.png" width="120px" height="120px"></em></a>
+							<a href="#prof4-info" class="pro-item fl" pro-name="Pedro Marauri"><span class="pro-name">Pedro Marauri</span><em><img src="images/professorate/pmarauri.png" width="120px" height="120px"></em></a>
 							<a href="#prof5-info" class="pro-item fl first-item" pro-name="Luis Manuel Tomos"><span class="pro-name">Luis Manuel Tomos</span><em><img src="images/professorate/lmtolmos.png" width="120px" height="120px"></em></a>
-							<a href="#prof6-info" class="pro-item fl" pro-name="Francisco José Palací"><span class="pro-name">Francisco José Palací</span><em><img src="images/professorate/ppalaci.png" width="120px" height="120px"></em></a>
-							<a href="#prof7-info" class="pro-item fl" pro-name="Pedro Marauri"><span class="pro-name">Pedro Marauri</span><em><img src="images/professorate/pmarauri.png" width="120px" height="120px"></em></a>
+							<a href="#prof6-info" class="pro-item fl" pro-name="Jesús Gómez Garzas"><span class="pro-name">Jesús Gómez Garzas</span><em><img src="images/professorate/jgomez.png" width="120px" height="120px"></em></a>
+							<a href="#prof7-info" class="pro-item fl" pro-name="Francisco José Palací"><span class="pro-name">Francisco José Palací</span><em><img src="images/professorate/ppalaci.png" width="120px" height="120px"></em></a>
 						</p><!-- .grp-professorate -->
 						<div class="wrp-prof-info">
 							<div id="prof1-info" class="prof-cnt_info">
@@ -235,10 +235,10 @@
 								<div class="mg fl"><img src="images/professorate/jcales.png" width="180px" height="180px" title="José María Calés"></div><!-- .mg -->
 								<div class="mt">
 									<p>Director del curso.</p>
-									<p>Profesor de Psicobiología en la Universidad Nacional de Educación a Distancia (UNED). Ha sido Director del Departamento de Psicobiología de la UNED. Desde hace siete años viene compaginando su actividad docente e investigadora con el desarrollo y coordinación de distintos proyectos que han permitido a la UNED adaptar su metodología a distancia al marco de las Nuevas Tecnologías de la Información y la Comunicación (TIC). En este sentido, en el año 1999 fue nombrado Director de Tecnologías Avanzadas en la UNED, cargo que ha desempeñó hasta el mes de diciembre del año 2002. Previo a esta condición académica, y tras ocupar diversos cargos dentro de la UNED, fue nombrado Subdirector del Centro de Diseño y Producción de Medios Audiovisuales de esta Universidad, desde donde impulsó diversos proyectos relacionados con las TIC; como son la implantación de la radio de la UNED por Internet, el Canal digital TeleUNED y la informatización de la gestión de algunos departamentos integrados en este Centro.</p> 
+									<p>Profesor de Psicobiología en la Universidad Nacional de Educación a Distancia (UNED). Ha sido Director del Departamento de Psicobiología de la UNED. Desde hace años viene compaginando su actividad docente e investigadora con el desarrollo y coordinación de distintos proyectos que han permitido a la UNED adaptar su metodología a distancia al marco de las Nuevas Tecnologías de la Información y la Comunicación (TIC). En este sentido, en el año 1999 fue nombrado Director de Tecnologías Avanzadas en la UNED, cargo que ha desempeñó hasta el mes de diciembre del año 2002. Previo a esta condición académica, y tras ocupar diversos cargos dentro de la UNED, fue nombrado Subdirector del Centro de Diseño y Producción de Medios Audiovisuales de esta Universidad, desde donde impulsó diversos proyectos relacionados con las TIC; como son la implantación de la radio de la UNED por Internet, el Canal digital TeleUNED y la informatización de la gestión de algunos departamentos integrados en este Centro.</p> 
 									<p>Con referencia a su actividad como Director de Tecnologías Avanzadas, ha tenido a su cargo el impulso y la coordinación del proceso de virtualización de esta Universidad, así como del desarrollo de toda la infraestructura necesaria para la incorporación de la UNED a las TIC.</p>
 									<p>Tiene publicados varios trabajos sobre educación a distancia y Nuevas Tecnologías y ha sido invitado en numerosas ocasiones a impartir conferencias y seminarios sobre estos aspectos.</p>
-									<p>En diciembre del año 2000 fue galardonado con el primer premio al mejor Web Educativo concedido por el Consejo Social de su Universidad y en diciembre del año 2006 con un Accésit del mismo Consejo al mejor curso virtual de la UNED.</p>
+									<p>En diciembre del año 2000 fue galardonado con el primer premio al mejor Web Educativo concedido por el Consejo Social de su Universidad; en diciembre del año 2006 con un Accésit del mismo Consejo al mejor curso virtual de la UNED y el Curso 2012 con el Premio del Cosejo Social de la UNED a la mejor asignatura en su conjunto (mejor curso virtual, mejores materiales y mejor metodología).</p>
 									<p>También es de destacar su responsabilidad en el proyecto del servidor de educación a distancia de la Universidad Andina Simón Bolivar, en la ciudad de Sucre (Bolivia), así como el asesoramiento sobre determinados proyectos de instituciones nacionales y extranjeras, entre las que cabe mencionar el Instituto Tecnológico de Durango en México.</p>
 									<p>Gran parte de su actividad se ha centrado en el proyecto de implantación del libro electrónico en el ámbito educativo, tema este en el que se ha especializado y que está desarrollando y potenciando desde la UNED.</p>
 									<p>Fue, además, Director Ejecutivo de Expocampus, el primer Congreso sobre la Universidad y el e-learning y profesor del Curso de Experto Universitario de la UNED sobre e-learning y educación virtual.</p>
@@ -269,13 +269,13 @@
 								</div><!-- .mt -->
 							</div><!-- #prof3-info -->
 							<div id="prof4-info" class="prof-cnt_info">
-								<h1 class="prof-tit">Jesús Gómez Garzas</h1>
+								<h1 class="prof-tit">Pedro Marauri</h1>
 								<span class="tit-line"></span>
-								<div class="mg fl"><img src="images/professorate/jgomez.png" width="180px" height="180px" title="Jesús Gómez Garzas"></div><!-- .mg -->
+								<div class="mg fl"><img src="images/professorate/pmarauri.png" width="180px" height="180px" title="Pedro Marauri"></div><!-- .mg -->
 								<div class="mt">
-									<p>Doctor en Derecho, Experto en Derecho y Nuevas Tecnologías, es Profesor de Derecho en la  Universidad Nacional de Educación a Distancia y Secretario General Adjunto de la UNED.</p>
-									<p>Forma parte del equipo docente del Master en Dirección de Recursos Humanos de la empresa desde el año 2005 hasta la actualidad, así como del Master en sostenibilidad y responsabilidad social corporativa.</p>
-									<p>Es también Miembro fundador y tesorero de la Asociación para el Estudio de los procesos cognitivos y sus alteraciones.</p>
+									<p>Máster Internacional en Enseñanza y Aprendizaje Abiertos y a Distancia de la Cátedra Unesco de Educación a Distancia de la UNED (España), es en la actualidad Director Tecnológico del Instituto de Altos Estudios Europeos, Secretario Académico de la Maestría Internacional On-line en Drogodependencias y colaborador de la Cátedra Unesco de Educación a Distancia (CUED). Adscrito al Instituto Universitario de Educación a Distancia de la UNED, es  Coordinador académico del Curso Iberoamericano de Educación a distancia.</p>
+									<p>Tutor en red de varios cursos clave en la UNED como son el Máster Oficial en Unión Europea, el Máster en Malos Tratos y Violencia de Género, el Programa Modular en Unión Europea, el curso denominado “Venia Docendi” para nuevos profesores tutores de la UNED y el curso “WebCT avanzado” para el colectivo docente de la sede central de la UNED entre otros.</p>
+									<p>Ha sido profesor del Plan de Formación y Capacitación del II Laboratorio de Paz en Colombia.</p>
 								</div><!-- .mt -->
 							</div><!-- #prof4-info -->
 							<div id="prof5-info" class="prof-cnt_info">
@@ -290,6 +290,16 @@
 								</div><!-- .mt -->
 							</div><!-- #prof5-info -->
 							<div id="prof6-info" class="prof-cnt_info">
+								<h1 class="prof-tit">Jesús Gómez Garzas</h1>
+								<span class="tit-line"></span>
+								<div class="mg fl"><img src="images/professorate/jgomez.png" width="180px" height="180px" title="Jesús Gómez Garzas"></div><!-- .mg -->
+								<div class="mt">
+									<p>Doctor en Derecho, Experto en Derecho y Nuevas Tecnologías, es Profesor de Derecho en la  Universidad Nacional de Educación a Distancia y Secretario General Adjunto de la UNED.</p>
+									<p>Forma parte del equipo docente del Master en Dirección de Recursos Humanos de la empresa desde el año 2005 hasta la actualidad, así como del Master en sostenibilidad y responsabilidad social corporativa.</p>
+									<p>Es también Miembro fundador y tesorero de la Asociación para el Estudio de los procesos cognitivos y sus alteraciones.</p>
+								</div><!-- .mt -->
+							</div><!-- #prof6-info -->
+							<div id="prof7-info" class="prof-cnt_info">
 								<h1 class="prof-tit">Francisco José Palací</h1>
 								<span class="tit-line"></span>
 								<div class="mg fl"><img src="images/professorate/ppalaci.png" width="180px" height="180px" title="Francisco José Palací"></div><!-- .mg -->
@@ -297,16 +307,6 @@
 									<p>Doctor en Psicología y Profesor Titular de la Facultad de Psicología de la UNED.</p>
 									<p>Ha participado en proyectos de investigación financiados por el Fondo de Investigación Sanitaria en 1994, el Programa Sócrates. Grundtvig, acción 2, por el Ministerio de Educación, por el Departamento MIDE de la Facultad de Educación de la UNED , por el Vicerrectorado de Investigación de la UNED , por la Consejería de Educación de la Comunidad de Madrid y por el Ministerio de Educación y Ciencia. Plan Nacional De Investigación Científica, Desarrollo e Investigación Tecnológica.</p>
 									<p>Actualmente trabaja en un proyecto financiado por el Ministerio de Educación y Ciencia. Plan Nacional De Investigación Científica, Desarrollo e Investigación Tecnológica.</p>
-								</div><!-- .mt -->
-							</div><!-- #prof6-info -->
-							<div id="prof7-info" class="prof-cnt_info">
-								<h1 class="prof-tit">Pedro Marauri</h1>
-								<span class="tit-line"></span>
-								<div class="mg fl"><img src="images/professorate/pmarauri.png" width="180px" height="180px" title="Pedro Marauri"></div><!-- .mg -->
-								<div class="mt">
-									<p>Máster Internacional en Enseñanza y Aprendizaje Abiertos y a Distancia de la Cátedra Unesco de Educación a Distancia de la UNED (España), es en la actualidad Director Tecnológico del Instituto de Altos Estudios Europeos, Secretario Académico de la Maestría Internacional On-line en Drogodependencias y colaborador de la Cátedra Unesco de Educación a Distancia (CUED). Adscrito al Instituto Universitario de Educación a Distancia de la UNED, es  Coordinador académico del Curso Iberoamericano de Educación a distancia.</p>
-									<p>Tutor en red de varios cursos clave en la UNED como son el Máster Oficial en Unión Europea, el Máster en Malos Tratos y Violencia de Género, el Programa Modular en Unión Europea, el curso denominado “Venia Docendi” para nuevos profesores tutores de la UNED y el curso “WebCT avanzado” para el colectivo docente de la sede central de la UNED entre otros.</p>
-									<p>Ha sido profesor del Plan de Formación y Capacitación del II Laboratorio de Paz en Colombia.</p>
 								</div><!-- .mt -->
 							</div><!-- #prof7-info -->
 						</div><!-- .wrp-prof-info -->
@@ -328,79 +328,132 @@
 					<div class="sec-bd">
 						<span class="line-closer tr"></span>
 						<span class="line-closer br"></span>
-						<h2 class="cnt-tit sz2">El curso está estructurado en seis módulos:</h2>
-						<div class="program-info mt">
-							<ul class="lst-program-mod">
-								<li class="lst-item">
-									<strong>Módulo 1: Fundamentos del b-learning (5 Créditos)</strong>
-									<ul class="lst-modinfo">
-										<li class="lst-subitem">El curso está estructurado en seis módulos:</li>
-										<li class="lst-subitem">Modelos pedagógicos e instruccionales</li>
-										<li class="lst-subitem">Metodología</li>
-										<li class="lst-subitem">Materiales</li>
-										<li class="lst-subitem">Agentes</li>
-										<li class="lst-subitem">Evaluación</li>
-										<li class="lst-subitem">El b-learning en el ámbito corporativo, académico y escolar</li>
-									</ul><!-- .lst-modinfo -->
-								</li><!-- .lst-item -->
-							</ul><!-- .lst-program-mod -->
-							<ul class="lst-program-mod">
-								<li class="lst-item">
-									<strong>Módulo 2: Aspectos técnicos en el b-learning (10 Créditos)</strong>
-									<ul class="lst-modinfo">
-										<li class="lst-subitem">Introducción al e-learning</li>
-										<li class="lst-subitem">Componentes del e-learning</li>
-										<li class="lst-subitem">Las Plataformas</li>
-										<li class="lst-subitem">Los Metadatos</li>
-										<li class="lst-subitem">Herramientas Web 2.0</li>
-									</ul><!-- .lst-modinfo -->
-								</li><!-- .lst-item -->
-							</ul><!-- .lst-program-mod -->
-							<ul class="lst-program-mod">
-								<li class="lst-item">
-									<strong>Módulo 3: Creación de cursos en línea y estrategias de enseñanza en b-learning (10 Créditos)</strong>
-									<ul class="lst-modinfo">
-										<li class="lst-subitem">Modelos de cursos virtuales.</li>
-										<li class="lst-subitem">Las fases de creación de un curso virtual y sus procesos.</li>
-										<li class="lst-subitem">Estrategias y Técnicas de la enseñanza en b-learning</li>
-									</ul><!-- .lst-modinfo -->
-								</li><!-- .lst-item -->
-							</ul><!-- .lst-program-mod -->
-							<ul class="lst-program-mod">
-								<li class="lst-item">
-									<strong>Módulo 4: Aspectos jurídicos, seguridad y derechos de autor en b-learning (4 Créditos)</strong>
-									<ul class="lst-modinfo">
-										<li class="lst-subitem">Propiedad Intelectual y Propiedad industrial</li>
-										<li class="lst-subitem">Protección de datos</li>
-										<li class="lst-subitem">Contratación</li>
-									</ul><!-- .lst-modinfo -->
-								</li><!-- .lst-item -->
-							</ul><!-- .lst-program-mod -->
-							<ul class="lst-program-mod">
-								<li class="lst-item">
-									<strong>Módulo 5: Evaluación y acreditación de la calidad de la formación (4 Créditos)</strong>
-									<ul class="lst-modinfo">
-										<li class="lst-subitem">La evaluación y la acreditación</li>
-										<li class="lst-subitem">Criterios, indicadores y estándares de calidad</li>
-										<li class="lst-subitem">Agencias de Acreditación y Procesos de Acreditación y Evaluación</li>
-									</ul><!-- .lst-modinfo -->
-								</li><!-- .lst-item -->
-							</ul><!-- .lst-program-mod -->
-							<ul class="lst-program-mod">
-								<li class="lst-item">
-									<strong>Módulo 6: Aspectos formales, organizacionales y sociales en el diseño, gestión y dirección de proyectos de b-learning. (4 Créditos)</strong>
-									<ul class="lst-modinfo">
-										<li class="lst-subitem">Modelos de organización y gestión de recursos humanos</li>
-										<li class="lst-subitem">El b-learning en el contexto laboral y organizacional</li>
-										<li class="lst-subitem">Implantación de proyectos de b-learning en las organizaciones</li>
-										<li class="lst-subitem">Buenas prácticas y tendencias del b-learning en el ámbito organizacional</li>
-									</ul><!-- .lst-modinfo -->
-								</li><!-- .lst-item -->
-							</ul><!-- .lst-program-mod -->
-						</div><!-- .program-info -->
+						<div class="grp-program fl">
+							<h2 class="cnt-tit sz2">Experto Universitario:</h2>
+							<div class="program-info mt">
+								<ul class="lst-program-mod">
+									<li class="lst-item">
+										<strong>Módulo 1: Fundamentos del b-learning (5 Créditos)</strong>
+										<ul class="lst-modinfo">
+											<li class="lst-subitem">La Educación a Distancia, el e-learning y el b-learning</li>
+											<li class="lst-subitem">Modelos pedagógicos e instruccionales</li>
+											<li class="lst-subitem">Metodología</li>
+											<li class="lst-subitem">Materiales</li>
+											<li class="lst-subitem">Agentes</li>
+											<li class="lst-subitem">Evaluación</li>
+											<li class="lst-subitem">El b-learning en el ámbito corporativo, académico y escolar</li>
+										</ul><!-- .lst-modinfo -->
+									</li><!-- .lst-item -->
+								</ul><!-- .lst-program-mod -->
+								<ul class="lst-program-mod">
+									<li class="lst-item">
+										<strong>Módulo 2: Aspectos técnicos en el b-learning (10 Créditos)</strong>
+										<ul class="lst-modinfo">
+											<li class="lst-subitem">Introducción al e-learning</li>
+											<li class="lst-subitem">Componentes del e-learning</li>
+											<li class="lst-subitem">Las Plataformas</li>
+											<li class="lst-subitem">Los Metadatos</li>
+											<li class="lst-subitem">Herramientas Web 2.0</li>
+										</ul><!-- .lst-modinfo -->
+									</li><!-- .lst-item -->
+								</ul><!-- .lst-program-mod -->
+								<ul class="lst-program-mod">
+									<li class="lst-item">
+										<strong>Módulo 3: Creación de cursos en línea y estrategias de enseñanza en b-learning (10 Créditos)</strong>
+										<ul class="lst-modinfo">
+											<li class="lst-subitem">Modelos de cursos virtuales</li>
+											<li class="lst-subitem">Las fases de creación de un curso virtual y sus procesos</li>
+											<li class="lst-subitem">Estrategias y Técnicas de la enseñanza en b-learning</li>
+										</ul><!-- .lst-modinfo -->
+									</li><!-- .lst-item -->
+								</ul><!-- .lst-program-mod -->
+								<ul class="lst-program-mod">
+									<li class="lst-item">
+										<strong>Módulo 4: Aspectos jurídicos, seguridad y derechos de autor en b-learning (4 Créditos)</strong>
+										<ul class="lst-modinfo">
+											<li class="lst-subitem">Propiedad Intelectual y Propiedad industrial</li>
+											<li class="lst-subitem">Protección de datos</li>
+											<li class="lst-subitem">Contratación</li>
+										</ul><!-- .lst-modinfo -->
+									</li><!-- .lst-item -->
+								</ul><!-- .lst-program-mod -->
+								<ul class="lst-program-mod">
+									<li class="lst-item">
+										<strong>Módulo 5: Evaluación y acreditación de la calidad de la formación (4 Créditos)</strong>
+										<ul class="lst-modinfo">
+											<li class="lst-subitem">La evaluación y la acreditación</li>
+											<li class="lst-subitem">Criterios, indicadores y estándares de calidad</li>
+											<li class="lst-subitem">Agencias de Acreditación y Procesos de Acreditación y Evaluación</li>
+										</ul><!-- .lst-modinfo -->
+									</li><!-- .lst-item -->
+								</ul><!-- .lst-program-mod -->
+								<ul class="lst-program-mod">
+									<li class="lst-item">
+										<strong>Módulo 6: Aspectos formales, organizacionales y sociales en el diseño, gestión y dirección de proyectos de b-learning. (4 Créditos)</strong>
+										<ul class="lst-modinfo">
+											<li class="lst-subitem">Modelos de organización y gestión de recursos humanos</li>
+											<li class="lst-subitem">El b-learning en el contexto laboral y organizacional</li>
+											<li class="lst-subitem">Implantación de proyectos de b-learning en las organizaciones</li>
+											<li class="lst-subitem">Buenas prácticas y tendencias del b-learning en el ámbito organizacional</li>
+										</ul><!-- .lst-modinfo -->
+									</li><!-- .lst-item -->
+								</ul><!-- .lst-program-mod -->
+							</div><!-- .program-info -->
+						</div><!-- .grp-program -->
+						<div class="grp-program fr">
+							<h2 class="cnt-tit sz2">Experto Profesional:</h2>
+							<div class="program-info mt">
+								<ul class="lst-program-mod">
+									<li class="lst-item">
+										<strong>Módulo I: Fundamentos del e-learning y el b-learning (5 Créditos)</strong>
+										<ul class="lst-modinfo">
+											<li class="lst-subitem">La Educación a Distancia, el e-learning y el b-learning</li>
+											<li class="lst-subitem">Modelos pedagógicos e instruccionales</li>
+											<li class="lst-subitem">Metodología</li>
+											<li class="lst-subitem">Materiales</li>
+											<li class="lst-subitem">Agentes</li>
+											<li class="lst-subitem">Evaluación</li>
+											<li class="lst-subitem">El e-learning y el b-learning en el ámbito corporativo, académico y escolar</li>
+										</ul><!-- .lst-modinfo -->
+									</li><!-- .lst-item -->
+								</ul><!-- .lst-program-mod -->
+								<ul class="lst-program-mod">
+									<li class="lst-item">
+										<strong>Módulo 2: Aspectos técnicos en el e-learning y el b-learning (10 Créditos)</strong>
+										<ul class="lst-modinfo">
+											<li class="lst-subitem">Introducción al e-learning</li>
+											<li class="lst-subitem">Componentes del e-learning</li>
+											<li class="lst-subitem">Las Plataformas</li>
+											<li class="lst-subitem">Los Metadatos</li>
+											<li class="lst-subitem">Herramientas Web 2.0</li>
+										</ul><!-- .lst-modinfo -->
+									</li><!-- .lst-item -->
+								</ul><!-- .lst-program-mod -->
+								<ul class="lst-program-mod">
+									<li class="lst-item">
+										<strong>Módulo 3: Creación de cursos en línea y estrategias de enseñanza en e-learning y b-learning (10 Créditos)</strong>
+										<ul class="lst-modinfo">
+											<li class="lst-subitem">Modelos de cursos virtuales.</li>
+											<li class="lst-subitem">Las fases de creación de un curso virtual y sus procesos.</li>
+											<li class="lst-subitem">Estrategias y Técnicas de la enseñanza en e-learning y b-learning</li>
+										</ul><!-- .lst-modinfo -->
+									</li><!-- .lst-item -->
+								</ul><!-- .lst-program-mod -->
+								<ul class="lst-program-mod">
+									<li class="lst-item">
+										<strong>Módulo 4: Aspectos formales (4 Créditos)</strong>
+										<ul class="lst-modinfo">
+											<li class="lst-subitem">Propiedad Intelectual</li>
+											<li class="lst-subitem">Los criterios, indicadores y estándares de calidad</li>
+											<li class="lst-subitem">Buenas prácticas en el b-learning y e-learning</li>
+										</ul><!-- .lst-modinfo -->
+									</li><!-- .lst-item -->
+								</ul><!-- .lst-program-mod -->
+							</div><!-- .program-info -->
+						</div><!-- .grp-program -->
 						<h2 class="cnt-tit sz2">Metodología</h2>
-						<p class="mt">El curso se impartirá siguiendo la metodología de la enseñanza a distancia mediada por las NTIC’s, propia de la UNED. Tanto la tutorización como la realización de actividades prácticas por parte de los alumnos se realizarán a través de una plataforma de formación Online, específica para este curso. El alumno dispondrá, además, de un material didáctico en formato CD-ROM, elaborado expresamente para este curso.</p>
-						<p class="mt">El curso tendrá un carácter teórico-práctico, siendo <strong>40% Teórico</strong> y <strong>60% Práctico.</strong></p>
+						<p class="mt">Cada uno de los cursos tendrá un carácter teórico-práctico. Así: <strong>40% Teórico</strong> y <strong>60% Práctico.</strong></p>
+						<p class="mt">Los dos cursos se impartirán siguiendo la metodología de la enseñanza a distancia mediada por las NTIC’s, propia de la UNED. Tanto la tutorización como la realización de las actividades prácticas por parte de los alumnos se realizarán a través entornos virtuales específicos para este curso. De tal manera que ambos cursos podrán cursarse desde cualquier ordenador con conexión a Internet. El alumno dispondrá, además, de un material didáctico elaborado expresamente.</p>
 					</div><!-- .sec-bd -->
 					<div class="sec-ft"><span class="ft-bullets"></span></div>
 				</div><!-- .md-section.programa -->
@@ -414,34 +467,58 @@
 								<span class="line-closer l"></span><span class="line-closer r"></span>
 							</div><!-- .line -->
 						</div><!-- .mob-hr -->
-						<div class="mg"></div><!-- .mg -->
+						<div class="mg" style="padding-top:35px;"><img src="images/sections/sec-inscripcion.png" alt="Objetivos" /></div><!-- .mg -->
 					</div><!-- .sec-hd -->
 					<div class="sec-bd">
 						<span class="line-closer tl"></span>
 						<span class="line-closer bl"></span>
+						<h2 class="cnt-tit sz1">Experto <em>Univeritario</em></h2>
+						<h3 class="cnt-tit sz2 bspace">en Diseño, gestión y dirección de proyectos de b-learning</h3>
 						<h2 class="cnt-tit sz2">Número de créditos y duración del curso</h2>
-						<p class="mt">El curso será de 37 créditos ECTS.<br />El periodo lectivo, que abarcará 7meses, comenzará en el mes de diciembre del año 2012, finalizando en el mes de junio del año 2013.</p>
-						<h2 class="cnt-tit sz2">Bolsa de empleo</h2>
-						<p class="mt">Todos los alumnos matriculados en este curso tendrán acceso a la bolsa de empleo y a todos los servicios que ofrece el Centro de Orientación, Información y Empleo de la UNED</p>
+						<p class="mt">El curso será de 37 créditos ECTS.<br />El periodo lectivo, que abarcará 7 meses, comenzará en el mes de diciembre del año 2013, finalizando en el mes de junio del año 2014.</p>
 						<div class="enrollment">
 							<div class="cp-infobox cp">
 								<div class="cp-hd">
-									<h3 class="box-title">Matrícula disponible hasta el 15 de noviembre de 2012.</h3>
+									<h3 class="box-title">Reserva de plaza hasta el 1 de septiembre de 2013</h3>
 								</div><!-- .cp-hd -->
 								<div class="cp-bd">
 									<div class="mt tx-ct">
 										<p class="cp-btn_line">
-											<a class="btn sk-bt1" href="" title="Formalizar matrícula" target="_blank">Formalizar matrícula</a>
+											<a class="btn sk-bt1" href="" title="Reservar plaza" target="_blank">Reservar plaza</a>
 										</p><!-- .cp-btn_line -->
-										<p class="rollment-price"><strong>Precio: 1.396€</strong> (material incluido)</p>
+										<p class="rollment-price"><strong>Precio: 1.539€</strong> (material incluido)</p>
 									</div><!-- .mt -->
 								</div><!-- .cp-bd -->
 								<div class="cp-ft">
-									<strong>Curso bonificable para la formación en el empleo (FTFE).</strong> Infórmese en <a href="" target="_blank">esta página</a>
+									<strong>Curso bonificable para la formación en el empleo (FTFE).</strong> Infórmese en <a href="http://www.fundacion.uned.es/web/mas-ayudas-formacion" target="_blank">esta página</a>
 								</div><!-- .cp-ft -->
 							</div><!-- .cp-infobox -->
-							<small class="tx-info legend">Este cuso cuenta con un número limitado de ayudas al estudio para sufragar, total o parcialmente, los gastos de matrícula, atendiendo a las circunstancias económicas y académicas del solicitante.</small>
 						</div><!-- .enrollment -->
+						<h2 class="cnt-tit sz1">Experto <em>Profesional</em></h2>
+						<h3 class="cnt-tit sz2 bspace">en Diseño y gestión de cursos de e-learning y b-learning</h3>
+						<h2 class="cnt-tit sz2">Número de créditos y duración del curso</h2>
+						<p class="mt">El curso será de 29 créditos ECTS.<br />El periodo lectivo, que abarcará 5 meses, comenzará en el mes de diciembre del año 2013, finalizando en el mes de mayo del año 2014.</p>
+						<div class="enrollment">
+							<div class="cp-infobox cp">
+								<div class="cp-hd">
+									<h3 class="box-title">Reserva de plaza hasta el 1 de septiembre de 2013</h3>
+								</div><!-- .cp-hd -->
+								<div class="cp-bd">
+									<div class="mt tx-ct">
+										<p class="cp-btn_line">
+											<a class="btn sk-bt1" href="" title="Reservar plaza" target="_blank">Reservar plaza</a>
+										</p><!-- .cp-btn_line -->
+										<p class="rollment-price"><strong>Precio: 1.319€</strong> (material incluido)</p>
+									</div><!-- .mt -->
+								</div><!-- .cp-bd -->
+								<div class="cp-ft">
+									<strong>Curso bonificable para la formación en el empleo (FTFE).</strong> Infórmese en <a href="http://www.fundacion.uned.es/web/mas-ayudas-formacion" target="_blank">esta página</a>
+								</div><!-- .cp-ft -->
+							</div><!-- .cp-infobox -->
+						</div><!-- .enrollment -->
+						<h2 class="cnt-tit sz2">Bolsa de empleo</h2>
+						<p class="mt">Todos los alumnos matriculados en estos cursos tendrán acceso a la bolsa de empleo y a todos los servicios que ofrece el Centro de Orientación, Información y Empleo de la UNED.</p>
+						<small class="tx-info legend">Estos cursos cuentan con un número limitado de ayudas al estudio para sufragar, total o parcialmente, los gastos de matrícula, atendiendo a las circunstancias económicas y académicas del solicitante.</small>			
 					</div><!-- .sec-bd -->
 				</div><!-- .md-section.inscripcion -->
 
@@ -477,14 +554,14 @@
 								<h2 class="tx-title"><em>Ú</em>ltimos Tweets</h2>
 							</div><!-- .hd -->
 							<div class="bd">
-								<span class="goto-tw"><a target="_blank"><em>B-learning Tweeter</em></a></span>
+								<span class="goto-tw"><a href="https://twitter.com/blearningUNED" target="_blank"><em>B-learning Twitter</em></a></span>
 							    <div id="latestTweets" class="query"></div>
 							</div><!-- .bd -->
 						</div><!-- .md-ft_module.ultimos_tweets -->
 					</div><!-- .col -->
 
 					<div class="col last">
-						<div class="md-ft_module contacto md">
+						<div class="md-ft_module contacto md" id="contacto">
 							<div class="hd">
 								<h2 class="tx-title"><em>C</em>ontacto</h2>
 							</div><!-- .hd -->
@@ -501,14 +578,14 @@
 										<div class="field required">
 											<p>
 												<label>Email</label>
-												<input type="text" class="text verifyMail" title="*E-mail:" id="ctform-email" />
+												<input type="text" name="email" class="text verifyMail" title="*E-mail:" id="ctform-email" />
 												<span class="iferror">E-mail inválido</span>
 											</p>
 										</div><!-- .field -->
 										<div class="field required">
 											<p>
 												<label>Mensaje</label>
-												<textarea class="tx-message" title="*Mensaje:" id="ctform-message"></textarea>
+												<textarea name="message" class="tx-message" title="*Mensaje:" id="ctform-message"></textarea>
 												<span class="iferror">Escriba su mensaje</span>
 											</p>
 										</div><!-- .field -->
@@ -525,8 +602,8 @@
 
 				<div class="copyr tx-ct">
 					<div class="wrp-copyr">
-						<p class="ft-brand cf"><span class="bl-logo fl"><em>B-learning</em></span> <span class="uned-copyr fl">© UNED, 2012.</span></p>
-						<p class="tx-copyr">Curso de Experto en Diseño, Gestión y Dirección de Proyectos B-Learning</p>
+						<p class="ft-brand cf"><span class="bl-logo fl"><em>B-learning</em></span> <span class="uned-copyr fl">© UNED, 2013.</span></p>
+						<p class="tx-copyr">Cursos de Experto en b-learning y e-learning - Telf. 645 732 711 (lunes a viernes de 10:00h. a 20:00h.)</p>
 					</div><!-- .wrp-copyr -->
 				</div><!-- .copyr -->
 
